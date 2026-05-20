@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "generator": "Generator",
+    "cards": "Karten",
+    "about": "Über uns",
+    "contacts": "Kontakt"
+  },
+  "meta": {
+    "home": {
+      "title": "Tarot-Generator — Ziehe deine Karte des Tages",
+      "description": "Kostenloser Online-Tarot-Generator. Ziehe deine Karte des Tages aus dem vollständigen 78-Karten-Rider-Waite-Deck und erhalte sofort Bedeutung, Liebes- und Karrieredeutung.",
+      "keywords": "tarot generator|kostenlos tarot|tageskarte|tarot ziehen|tarot online|rider waite tarot",
+      "ogTitle": "Tarot-Generator — Ziehe deine Karte des Tages",
+      "ogDescription": "Kostenloser Online-Tarot-Generator. Ziehe deine Karte des Tages aus dem vollständigen 78-Karten-Rider-Waite-Deck."
+    },
+    "cards": {
+      "title": "Alle 78 Tarotkarten — Bedeutungen und Deutungen",
+      "description": "Durchstöbere alle 78 Karten des Rider-Waite-Smith-Decks: 22 Große Arkana und 56 Kleine Arkana in Stäben, Kelchen, Schwertern und Münzen."
+    },
+    "about": {
+      "title": "Über tarotcard.art",
+      "description": "Über tarotcard.art — ein kostenloser, werbearmer Tarot-Generator auf Basis des gemeinfreien Rider-Waite-Smith-Decks."
+    },
+    "contacts": {
+      "title": "Kontakt — tarotcard.art",
+      "description": "Kontaktiere tarotcard.art. Fragen, Feedback, Partnerschaftsanfragen — schreib uns an info@tarotcard.art."
+    }
+  },
+  "home": {
+    "kicker": "✦ Kostenloser Tarot-Generator ✦",
+    "h1Part1": "Ziehe deine",
+    "h1Em": "Karte des Tages",
+    "h1Part2": "und entdecke die Botschaft",
+    "intro": "Eine Karte. Ein Moment der Stille. Eine sofortige Deutung aus dem vollständigen 78-Karten-Rider-Waite-Smith-Deck — als Wegweiser für deinen Tag, deine Entscheidung, deinen nächsten Schritt.",
+    "drawButton": "Karte ziehen",
+    "drawAgain": "Noch eine ziehen",
+    "readFullMeaning": "Vollständige Bedeutung lesen →",
+    "reversed": "Umgekehrt",
+    "majorArcanaLabel": "Große Arkana",
+    "ritual": "Das Ritual",
+    "howItWorks": "So funktioniert es",
+    "howIntro": "Drei Atemzüge. Drei Schritte. Eine uralte Praxis online zugänglich gemacht — kein Konto, keine Zahlung, nur du und die Karten.",
+    "step1Title": "Sammle deine Gedanken",
+    "step1Body": "Atme langsam. Halte eine Frage im Kopf — über Liebe, Arbeit, eine Entscheidung oder einfach den kommenden Tag.",
+    "step2Title": "Ziehe die Karte",
+    "step2Body": "Klicke auf die Karte, um das vollständige Deck zu mischen und jene zu enthüllen, die jetzt zu dir spricht.",
+    "step3Title": "Lies die Botschaft",
+    "step3Body": "Erhalte eine sofortige Deutung — Name, Bedeutung, Liebes- und Karrierehinweise sowie einen Rat für deinen Tag.",
+    "majorPreviewKicker": "22 Große Arkana",
+    "majorPreviewTitle": "Die großen Archetypen",
+    "majorPreviewIntro": "Vom Narren bis zur Welt — die Karten, die die Reise der Seele durch die universellsten Themen zeichnen.",
+    "browseAll": "Alle 78 Karten ansehen →",
+    "minorKicker": "56 Kleine Arkana",
+    "minorTitle": "Vier Farben, vier Elemente",
+    "minorIntro": "Die Kleinen Arkana sprechen vom Alltäglichen — Beziehungen, Entscheidungen, Arbeit und die Textur des täglichen Lebens.",
+    "cardsCount": "14 Karten →",
+    "aboutKicker": "tarotcard.art",
+    "aboutTitle": "Ein moderner Zugang zu einer alten Praxis",
+    "aboutQuote": "\"Die Karten sagen die Zukunft nicht voraus. Sie offenbaren, was du bereits weißt.\"",
+    "aboutP1": "Unser Tarot-Generator nutzt das vollständige 78-Karten-Rider-Waite-Smith-Deck — die am meisten studierte und vertrauteste Tarot-Tradition der Welt. Jede Ziehung wird mit dem kryptografisch sicheren Zufallsgenerator des Browsers randomisiert, sodass sich keine Lesung wiederholt.",
+    "aboutP2": "Ob du ein Neugieriger bist, der seine erste Karte zieht, oder ein erfahrener Leser, der eine schnelle tägliche Ziehung sucht — tarotcard.art ist schön, kostenlos und werbearm gestaltet — ein ruhiger Raum zur Reflexion.",
+    "faqKicker": "Fragen",
+    "faqTitle": "Häufig gestellte Fragen"
+  },
+  "card": {
+    "uprightMeaning": "Aufrechte Bedeutung",
+    "reversedMeaning": "Umgekehrte Bedeutung",
+    "love": "Liebe",
+    "career": "Beruf",
+    "todaysGuidance": "Rat für heute",
+    "drawCard": "Karte ziehen",
+    "moreFromMajor": "Weitere Große Arkana",
+    "moreFromSuit": "Mehr aus {suit}"
+  },
+  "cardsIndex": {
+    "kicker": "Das vollständige Deck",
+    "title": "Alle 78 Tarotkarten",
+    "intro": "Durchstöbere jede Karte des Rider-Waite-Smith-Decks. Klicke auf eine Karte, um die vollständige Bedeutung, die umgekehrte Deutung sowie Notizen zu Liebe, Karriere und täglichem Rat zu sehen.",
+    "majorKicker": "22 Karten",
+    "majorTitle": "Große Arkana",
+    "majorIntro": "Die großen Archetypen — die Reise der Seele vom Narren (0) bis zur Welt (XXI).",
+    "suitKicker": "14 Karten"
+  },
+  "about": {
+    "kicker": "Über uns",
+    "title": "Ein ruhiger Raum zur Reflexion",
+    "quote": "\"Die Karten sagen die Zukunft nicht voraus. Sie offenbaren, was du bereits weißt.\"",
+    "p1": "tarotcard.art ist ein kostenloser, werbearmer Tarot-Generator rund um das vollständige Rider-Waite-Smith-Deck mit 78 Karten — die am meisten studierte und vertrauteste Tarot-Tradition der Welt, erstmals 1909 veröffentlicht und nun gemeinfrei.",
+    "p2": "Jede Ziehung nutzt den kryptografisch sicheren Zufallsgenerator des Browsers (Web Crypto API), das Mischen ist also wirklich unvorhersehbar. Etwa dreißig Prozent der Karten erscheinen umgekehrt — wie in einer per Hand gemischten Lesung.",
+    "p3": "Wir sammeln keine persönlichen Daten, verlangen keine Anmeldung und zeigen keine aufdringliche Werbung. Die Karten sind hier, um frei gezogen zu werden — von Neulingen wie von erfahrenen Lesern.",
+    "whatYouFind": "Was du hier findest",
+    "li1": "✦ Einen Karte-des-Tages-Generator auf der Startseite",
+    "li2": "✦ Vollständige Bedeutungen, umgekehrte Deutungen und Notizen zu Liebe und Beruf für jede Karte des Decks",
+    "li3": "✦ Sowohl Große Arkana (22 archetypische Karten) als auch Kleine Arkana (56 Karten in vier Farben)",
+    "imageryTitle": "Zu den Illustrationen",
+    "imagery": "Das Rider-Waite-Smith-Deck wurde von Pamela Colman Smith illustriert und 1909 von A. E. Waite konzipiert. Beide Schöpfer sind seit über siebzig Jahren verstorben, und das Deck ist weltweit gemeinfrei. Die Bilder dieser Seite werden unter diesem Status frei reproduziert."
+  },
+  "contacts": {
+    "kicker": "Kontakt",
+    "title": "Kontakt",
+    "intro": "Fragen zu den Karten, Feedback zur Seite, Partnerschaftsanfragen — wir lesen jede Nachricht.",
+    "writeToUs": "Schreib uns",
+    "responseTime": "Wir antworten auf die meisten Nachrichten innerhalb von 1 bis 2 Werktagen. Für schnellere Hilfe zum Generator schau auf der Über-Seite oder in den FAQ auf der Startseite vorbei.",
+    "whatYouCanWrite": "Worüber du schreiben kannst",
+    "feedbackTitle": "Feedback",
+    "feedbackBody": "Eine Bedeutung, die dich berührt hat, ein Tippfehler, ein Vorschlag — alles willkommen.",
+    "questionsTitle": "Fragen",
+    "questionsBody": "Zu den Karten, dem Deck oder wie die Seite funktioniert.",
+    "partnershipTitle": "Partnerschaft",
+    "partnershipBody": "Kooperationen, Gastinhalte, Lizenzanfragen.",
+    "pressTitle": "Presse & Medien",
+    "pressBody": "Interviewanfragen, Berichterstattung oder Pressekits."
+  },
+  "faq": {
+    "q1": "Ist dieser Tarot-Generator wirklich zufällig?",
+    "a1": "Ja. Wir nutzen den kryptografisch sicheren Zufallsgenerator des Browsers (Web Crypto API), um das vollständige Rider-Waite-Smith-Deck bei jeder Ziehung zu mischen. Jede Karte hat die gleiche Chance, gezogen zu werden — und etwa 30 % erscheinen umgekehrt, wie in einer physischen Lesung.",
+    "q2": "Wie oft sollte ich eine Karte ziehen?",
+    "a2": "Die meisten Leser empfehlen eine Karte-des-Tages-Ziehung am Morgen. Dieselbe Frage in kurzer Zeit zu wiederholen, verwischt die Botschaft — lass eine Karte wirken, bevor du eine neue ziehst.",
+    "q3": "Was ist der Unterschied zwischen Großen und Kleinen Arkana?",
+    "a3": "Die Großen Arkana (22 Karten) stehen für die großen Lebensthemen — Liebe, Schicksal, Wandel. Die Kleinen Arkana (56 Karten in Stäben, Kelchen, Schwertern und Münzen) sprechen vom Alltag. Unser Generator zieht aus allen 78.",
+    "q4": "Warum erscheint meine Karte manchmal verkehrt herum?",
+    "a4": "Das ist eine umgekehrte Karte — traditioneller Teil der Tarotlesung. Eine umgekehrte Karte trägt eine verwandte, aber gespiegelte Bedeutung — oft eine blockierte oder ungelöste Version des aufrechten Themas.",
+    "q5": "Muss ich etwas über Tarot wissen?",
+    "a5": "Keine Vorkenntnisse nötig. Jede gezogene Karte enthält Name, Schlüsselwörter, traditionelle Bedeutung, Deutung für Liebe und Beruf sowie einen kurzen Rat.",
+    "q6": "Ist tarotcard.art kostenlos?",
+    "a6": "Ja — völlig kostenlos, kein Konto, keine Bezahlschranke. Das vollständige 78-Karten-Deck und jede Deutung sind frei lesbar."
+  },
+  "footer": {
+    "cardOfTheDay": "Karte des Tages",
+    "allCards": "Alle 78 Karten",
+    "majorArcana": "Große Arkana",
+    "minorArcana": "Kleine Arkana",
+    "about": "Über uns",
+    "contacts": "Kontakt",
+    "tagline": "Mit Absicht gezogen",
+    "publicDomain": "Die Bilder des Rider-Waite-Smith-Decks sind gemeinfrei."
+  },
+  "suit": {
+    "wands": "Stäbe",
+    "cups": "Kelche",
+    "swords": "Schwerter",
+    "pentacles": "Münzen"
+  },
+  "suitElement": {
+    "wands": "Feuer — Leidenschaft, Schöpfung, Handlung",
+    "cups": "Wasser — Gefühl, Liebe, Intuition",
+    "swords": "Luft — Gedanke, Konflikt, Wahrheit",
+    "pentacles": "Erde — Körper, Geld, Arbeit"
+  },
+  "notFound": {
+    "kicker": "404",
+    "title": "Diese Karte ist nicht in diesem Deck",
+    "intro": "Diese Seite konnte nicht gefunden werden. Vielleicht wartet die richtige Karte auf der Startseite.",
+    "back": "Karte ziehen"
+  },
+  "common": {
+    "language": "Sprache"
+  }
+}

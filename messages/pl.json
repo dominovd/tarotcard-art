@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "generator": "Generator",
+    "cards": "Karty",
+    "about": "O nas",
+    "contacts": "Kontakt"
+  },
+  "meta": {
+    "home": {
+      "title": "Generator Tarota — Wylosuj swoją kartę dnia",
+      "description": "Bezpłatny generator tarota online. Wylosuj swoją kartę dnia z pełnej talii 78 kart Rider-Waite i odbierz natychmiastowe znaczenie, interpretację miłosną i zawodową.",
+      "keywords": "generator tarota|tarot online|karta dnia|wróżenie z kart|tarot za darmo|tarot rider waite",
+      "ogTitle": "Generator Tarota — Wylosuj swoją kartę dnia",
+      "ogDescription": "Bezpłatny generator tarota online. Wylosuj swoją kartę dnia z pełnej talii Rider-Waite (78 kart)."
+    },
+    "cards": {
+      "title": "Wszystkie 78 kart Tarota — Znaczenia i interpretacje",
+      "description": "Przeglądaj wszystkie 78 kart talii Rider-Waite-Smith: 22 Wielkie Arkana i 56 Małych Arkanów — Buławy, Puchary, Miecze i Denary."
+    },
+    "about": {
+      "title": "O tarotcard.art",
+      "description": "O tarotcard.art — bezpłatny generator tarota bez nachalnych reklam, oparty na talii Rider-Waite-Smith w domenie publicznej."
+    },
+    "contacts": {
+      "title": "Kontakt — tarotcard.art",
+      "description": "Skontaktuj się z tarotcard.art. Pytania, opinie, współpraca — pisz na info@tarotcard.art."
+    }
+  },
+  "home": {
+    "kicker": "✦ Bezpłatny generator tarota ✦",
+    "h1Part1": "Wylosuj swoją",
+    "h1Em": "kartę dnia",
+    "h1Part2": "i odkryj przesłanie",
+    "intro": "Jedna karta. Chwila ciszy. Natychmiastowa interpretacja z pełnej talii Rider-Waite-Smith (78 kart) — by poprowadzić twój dzień, twoją decyzję, twój następny krok.",
+    "drawButton": "Wylosuj kartę",
+    "drawAgain": "Losuj jeszcze raz",
+    "readFullMeaning": "Przeczytaj pełne znaczenie →",
+    "reversed": "Odwrócona",
+    "majorArcanaLabel": "Wielkie Arkana",
+    "ritual": "Rytuał",
+    "howItWorks": "Jak to działa",
+    "howIntro": "Trzy oddechy. Trzy kroki. Starożytna praktyka udostępniona online — bez konta, bez płatności, tylko ty i karty.",
+    "step1Title": "Skup myśli",
+    "step1Body": "Weź wolny oddech. Trzymaj pytanie w głowie — o miłość, pracę, wybór lub po prostu o nadchodzący dzień.",
+    "step2Title": "Wylosuj kartę",
+    "step2Body": "Kliknij kartę, by przetasować pełną talię 78 kart i odsłonić tę, która mówi do ciebie w tej chwili.",
+    "step3Title": "Przeczytaj przesłanie",
+    "step3Body": "Otrzymaj natychmiastową interpretację — nazwę, znaczenie, notatki o miłości i pracy oraz wskazówkę na dzień.",
+    "majorPreviewKicker": "22 Wielkie Arkana",
+    "majorPreviewTitle": "Wielkie archetypy",
+    "majorPreviewIntro": "Od Głupca do Świata — karty wyznaczające podróż duszy przez najbardziej uniwersalne tematy.",
+    "browseAll": "Przeglądaj wszystkie 78 kart →",
+    "minorKicker": "56 Małych Arkanów",
+    "minorTitle": "Cztery kolory, cztery żywioły",
+    "minorIntro": "Małe Arkana mówią o codzienności — związkach, decyzjach, pracy i tkance dnia.",
+    "cardsCount": "14 kart →",
+    "aboutKicker": "tarotcard.art",
+    "aboutTitle": "Nowoczesna brama do starożytnej praktyki",
+    "aboutQuote": "\"Karty nie przewidują przyszłości. Ujawniają to, co już wiesz.\"",
+    "aboutP1": "Nasz generator tarota używa pełnej talii Rider-Waite-Smith z 78 kart — najlepiej zbadanej i najbardziej zaufanej tradycji tarota na świecie. Każde losowanie jest kryptograficznie bezpieczne (przeglądarkowy generator), więc żadne dwa odczyty nie powtarzają się.",
+    "aboutP2": "Niezależnie od tego, czy jesteś ciekawym nowicjuszem ciągnącym pierwszą kartę, czy doświadczonym czytelnikiem szukającym szybkiego dziennego losowania — tarotcard.art jest piękny, bezpłatny i bez nachalnych reklam — cicha przestrzeń do refleksji.",
+    "faqKicker": "Pytania",
+    "faqTitle": "Najczęściej zadawane"
+  },
+  "card": {
+    "uprightMeaning": "Znaczenie proste",
+    "reversedMeaning": "Znaczenie odwrócone",
+    "love": "Miłość",
+    "career": "Praca",
+    "todaysGuidance": "Wskazówka na dziś",
+    "drawCard": "Wylosuj kartę",
+    "moreFromMajor": "Więcej z Wielkich Arkanów",
+    "moreFromSuit": "Więcej z {suit}"
+  },
+  "cardsIndex": {
+    "kicker": "Pełna talia",
+    "title": "Wszystkie 78 kart tarota",
+    "intro": "Przeglądaj każdą kartę talii Rider-Waite-Smith. Kliknij dowolną, aby zobaczyć pełne znaczenie, interpretację odwróconą i notatki o miłości, pracy i wskazówce dnia.",
+    "majorKicker": "22 karty",
+    "majorTitle": "Wielkie Arkana",
+    "majorIntro": "Wielkie archetypy — podróż duszy od Głupca (0) do Świata (XXI).",
+    "suitKicker": "14 kart"
+  },
+  "about": {
+    "kicker": "O nas",
+    "title": "Cicha przestrzeń do refleksji",
+    "quote": "\"Karty nie przewidują przyszłości. Ujawniają to, co już wiesz.\"",
+    "p1": "tarotcard.art to bezpłatny generator tarota bez nachalnych reklam, zbudowany wokół pełnej talii Rider-Waite-Smith z 78 kart — najlepiej zbadanej i najbardziej zaufanej tradycji tarota na świecie, opublikowanej po raz pierwszy w 1909 roku i obecnie w domenie publicznej.",
+    "p2": "Każde losowanie używa kryptograficznie bezpiecznego generatora liczb losowych przeglądarki (Web Crypto API), więc tasowanie jest naprawdę nieprzewidywalne. Około trzydzieści procent kart pojawia się odwróconych — odzwierciedlając rytm fizycznego rozkładu.",
+    "p3": "Nie zbieramy danych osobowych, nie wymagamy kont i nie wyświetlamy nachalnych reklam. Karty są tu, by je ciągnąć — swobodnie, przez każdego, nowicjusza czy doświadczonego czytelnika.",
+    "whatYouFind": "Co tu znajdziesz",
+    "li1": "✦ Generator karty dnia na stronie głównej",
+    "li2": "✦ Pełne znaczenia, interpretacje odwrócone oraz notatki o miłości i pracy dla każdej karty",
+    "li3": "✦ Zarówno Wielkie Arkana (22 archetypiczne karty), jak i Małe Arkana (56 kart w czterech kolorach)",
+    "imageryTitle": "O ilustracjach",
+    "imagery": "Talia Rider-Waite-Smith została zilustrowana przez Pamelę Colman Smith i zaprojektowana przez A. E. Waite'a w 1909 roku. Oboje twórcy zmarli ponad siedemdziesiąt lat temu, a talia weszła do światowej domeny publicznej. Ilustracje na tej stronie są swobodnie reprodukowane w ramach tego statusu."
+  },
+  "contacts": {
+    "kicker": "Napisz do nas",
+    "title": "Kontakt",
+    "intro": "Pytania o karty, opinie o stronie, propozycje współpracy — czytamy każdą wiadomość.",
+    "writeToUs": "Napisz do nas",
+    "responseTime": "Odpowiadamy na większość wiadomości w ciągu 1–2 dni roboczych. Szybsze odpowiedzi o generatorze znajdziesz na stronie O nas lub w FAQ na stronie głównej.",
+    "whatYouCanWrite": "O czym możesz napisać",
+    "feedbackTitle": "Opinia",
+    "feedbackBody": "Znaczenie, które trafiło, literówka, sugestia — wszystko mile widziane.",
+    "questionsTitle": "Pytania",
+    "questionsBody": "O kartach, talii lub jak działa strona.",
+    "partnershipTitle": "Współpraca",
+    "partnershipBody": "Partnerstwa, treści gościnne, licencjonowanie.",
+    "pressTitle": "Prasa i media",
+    "pressBody": "Prośby o wywiad, materiały prasowe, press kit."
+  },
+  "faq": {
+    "q1": "Czy ten generator tarota jest naprawdę losowy?",
+    "a1": "Tak. Używamy kryptograficznie bezpiecznego generatora liczb losowych przeglądarki (Web Crypto API), aby tasować pełną talię Rider-Waite-Smith przy każdym losowaniu. Każda karta ma równą szansę — a około 30% pojawia się odwróconych, jak przy fizycznym rozkładzie.",
+    "q2": "Jak często powinno się losować kartę?",
+    "a2": "Większość czytelników zaleca jedną kartę dnia rano. Powtarzanie tego samego pytania w krótkim czasie zaciera przesłanie — pozwól, by jedna karta osiadła, zanim wylosujesz kolejną.",
+    "q3": "Jaka jest różnica między Wielkimi i Małymi Arkanami?",
+    "a3": "Wielkie Arkana (22 karty) reprezentują wielkie tematy życia — miłość, los, przemianę. Małe Arkana (56 kart w Buławach, Pucharach, Mieczach i Denarach) mówią o codzienności. Nasz generator losuje ze wszystkich 78.",
+    "q4": "Dlaczego moja karta czasem pojawia się do góry nogami?",
+    "a4": "To karta odwrócona — tradycyjny element czytania tarota. Karta odwrócona niesie pokrewne, ale odwrócone znaczenie — często wskazuje na zablokowaną lub nierozwiązaną wersję tematu prostego.",
+    "q5": "Czy muszę coś wiedzieć o tarocie?",
+    "a5": "Żadnej wcześniejszej wiedzy nie potrzeba. Każda karta zawiera nazwę, słowa kluczowe, tradycyjne znaczenie, interpretację miłosną i zawodową oraz krótką wskazówkę.",
+    "q6": "Czy tarotcard.art jest darmowy?",
+    "a6": "Tak — całkowicie darmowy, bez konta, bez paywalla. Cała talia 78 kart i każda interpretacja są otwarte do czytania."
+  },
+  "footer": {
+    "cardOfTheDay": "Karta dnia",
+    "allCards": "Wszystkie 78 kart",
+    "majorArcana": "Wielkie Arkana",
+    "minorArcana": "Małe Arkana",
+    "about": "O nas",
+    "contacts": "Kontakt",
+    "tagline": "Wylosowane z intencją",
+    "publicDomain": "Ilustracje talii Rider-Waite-Smith są w domenie publicznej."
+  },
+  "suit": {
+    "wands": "Buławy",
+    "cups": "Puchary",
+    "swords": "Miecze",
+    "pentacles": "Denary"
+  },
+  "suitElement": {
+    "wands": "Ogień — pasja, tworzenie, działanie",
+    "cups": "Woda — emocja, miłość, intuicja",
+    "swords": "Powietrze — myśl, konflikt, prawda",
+    "pentacles": "Ziemia — ciało, pieniądze, praca"
+  },
+  "notFound": {
+    "kicker": "404",
+    "title": "Tej karty nie ma w talii",
+    "intro": "Tej strony nie znaleziono. Może odpowiednia karta czeka na stronie głównej.",
+    "back": "Wylosuj kartę"
+  },
+  "common": {
+    "language": "Język"
+  }
+}

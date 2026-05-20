@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "generator": "Üretici",
+    "cards": "Kartlar",
+    "about": "Hakkımızda",
+    "contacts": "İletişim"
+  },
+  "meta": {
+    "home": {
+      "title": "Tarot Kart Üretici — Günün kartını çek",
+      "description": "Ücretsiz çevrimiçi tarot kartı üreticisi. 78 kartlık Rider-Waite destesinden günün kartını çek ve anında anlamı, aşk ve kariyer yorumunu al.",
+      "keywords": "tarot kart üretici|tarot online|günün kartı|tarot falı|ücretsiz tarot|rider waite tarot",
+      "ogTitle": "Tarot Kart Üretici — Günün kartını çek",
+      "ogDescription": "Ücretsiz çevrimiçi tarot kartı üreticisi. 78 kartlık Rider-Waite destesinden günün kartını çek."
+    },
+    "cards": {
+      "title": "78 Tarot Kartının Tamamı — Anlamlar ve Yorumlar",
+      "description": "Rider-Waite-Smith destesinin tüm 78 kartına göz at: 22 Büyük Arkana ve 56 Küçük Arkana — Asalar, Kupalar, Kılıçlar ve Tılsımlar."
+    },
+    "about": {
+      "title": "tarotcard.art hakkında",
+      "description": "tarotcard.art hakkında — kamu malı Rider-Waite-Smith destesini kullanan, reklamı az, ücretsiz bir tarot üreticisi."
+    },
+    "contacts": {
+      "title": "İletişim — tarotcard.art",
+      "description": "tarotcard.art ile iletişime geç. Sorular, geri bildirim, iş birliği talepleri — info@tarotcard.art adresine yaz."
+    }
+  },
+  "home": {
+    "kicker": "✦ Ücretsiz tarot kart üreticisi ✦",
+    "h1Part1": "Bugünün",
+    "h1Em": "kartını çek",
+    "h1Part2": "ve mesajı keşfet",
+    "intro": "Tek bir kart. Sessizlik anı. Tam 78 kartlık Rider-Waite-Smith destesinden anlık bir yorum — günün, kararın, bir sonraki adımın için bir rehber.",
+    "drawButton": "Kart çek",
+    "drawAgain": "Tekrar çek",
+    "readFullMeaning": "Tam anlamı oku →",
+    "reversed": "Ters",
+    "majorArcanaLabel": "Büyük Arkana",
+    "ritual": "Ritüel",
+    "howItWorks": "Nasıl çalışır",
+    "howIntro": "Üç nefes. Üç adım. Çağlar öncesine uzanan bir pratik, çevrimiçi erişilebilir — hesap yok, ödeme yok, sadece sen ve kartlar.",
+    "step1Title": "Zihnini topla",
+    "step1Body": "Yavaşça nefes al. Aklında bir soruyu tut — aşk, iş, bir seçim ya da sadece önündeki gün hakkında.",
+    "step2Title": "Kartı çek",
+    "step2Body": "Karta tıklayarak 78 kartlık desteyi karıştır ve şu an sana hitap edeni açığa çıkar.",
+    "step3Title": "Mesajı oku",
+    "step3Body": "Anında yorum al — kartın adı, anlamı, aşk ve kariyer notları ve bugüne dair bir rehber.",
+    "majorPreviewKicker": "22 Büyük Arkana",
+    "majorPreviewTitle": "Büyük arketipler",
+    "majorPreviewIntro": "Aptal'dan Dünya'ya — ruhun en evrensel temalardan geçen yolculuğunu çizen kartlar.",
+    "browseAll": "Tüm 78 karta göz at →",
+    "minorKicker": "56 Küçük Arkana",
+    "minorTitle": "Dört takım, dört element",
+    "minorIntro": "Küçük Arkana günlük yaşamdan söz eder — ilişkiler, kararlar, iş ve günün dokusu.",
+    "cardsCount": "14 kart →",
+    "aboutKicker": "tarotcard.art",
+    "aboutTitle": "Eski bir pratiğe modern bir kapı",
+    "aboutQuote": "\"Kartlar geleceği söylemez. Zaten bildiğini ortaya çıkarır.\"",
+    "aboutP1": "Tarot üreticimiz tam 78 kartlık Rider-Waite-Smith destesini kullanır — dünyanın en çok incelenmiş ve güvenilen tarot geleneği. Her çekiliş, tarayıcının kriptografik olarak güvenli rastgele sayı üreticisiyle yapılır; iki okuma aynı şekilde tekrar etmez.",
+    "aboutP2": "İster ilk kartını çeken meraklı bir yeni başlayan, ister hızlı bir günlük çekiliş arayan deneyimli bir okuyucu ol — tarotcard.art güzel, ücretsiz ve reklamı az olacak şekilde tasarlandı; düşünmek için sessiz bir alan.",
+    "faqKicker": "Sorular",
+    "faqTitle": "Sıkça sorulanlar"
+  },
+  "card": {
+    "uprightMeaning": "Düz anlamı",
+    "reversedMeaning": "Ters anlamı",
+    "love": "Aşk",
+    "career": "Kariyer",
+    "todaysGuidance": "Bugünün rehberi",
+    "drawCard": "Kart çek",
+    "moreFromMajor": "Büyük Arkana'dan dahası",
+    "moreFromSuit": "{suit}'tan dahası"
+  },
+  "cardsIndex": {
+    "kicker": "Tam deste",
+    "title": "78 tarot kartının tamamı",
+    "intro": "Rider-Waite-Smith destesinin her kartına göz at. Tam anlamı, ters yorumu ve aşk, kariyer, günlük rehber notlarını görmek için herhangi bir karta tıkla.",
+    "majorKicker": "22 kart",
+    "majorTitle": "Büyük Arkana",
+    "majorIntro": "Büyük arketipler — ruhun Aptal'dan (0) Dünya'ya (XXI) uzanan yolculuğu.",
+    "suitKicker": "14 kart"
+  },
+  "about": {
+    "kicker": "Hakkımızda",
+    "title": "Düşünmek için sessiz bir alan",
+    "quote": "\"Kartlar geleceği söylemez. Zaten bildiğini ortaya çıkarır.\"",
+    "p1": "tarotcard.art, 78 kartlık Rider-Waite-Smith destesi etrafında inşa edilmiş, ücretsiz ve reklamı az bir tarot üreticisidir — dünyanın en çok incelenmiş ve güvenilen tarot geleneği, ilk olarak 1909'da yayımlandı ve şimdi kamu malı.",
+    "p2": "Her çekiliş tarayıcının kriptografik olarak güvenli rastgele sayı üreticisini (Web Crypto API) kullanır; karıştırma gerçekten öngörülemez. Kartların yaklaşık yüzde otuzu ters görünür — el ile karıştırılan fiziksel bir okumanın ritmini yansıtır.",
+    "p3": "Kişisel veri toplamayız, hesap istemeyiz ve rahatsız edici reklam göstermeyiz. Kartlar burada, herkes tarafından özgürce çekilmek için — yeni başlayan ya da deneyimli okuyucu.",
+    "whatYouFind": "Burada ne bulacaksın",
+    "li1": "✦ Ana sayfada günün kartı üreticisi",
+    "li2": "✦ Her kart için tam anlamlar, ters yorumlar ve aşk ile kariyer notları",
+    "li3": "✦ Hem Büyük Arkana (22 arketipsel kart) hem de Küçük Arkana (dört takımda 56 kart)",
+    "imageryTitle": "Görseller hakkında",
+    "imagery": "Rider-Waite-Smith destesi 1909'da Pamela Colman Smith tarafından çizildi ve A. E. Waite tarafından tasarlandı. Her iki yaratıcı da yetmiş yıldan uzun süre önce vefat etti ve deste dünya çapında kamu malına geçti. Bu sitedeki görseller bu statü altında özgürce yeniden üretilmiştir."
+  },
+  "contacts": {
+    "kicker": "Bize ulaş",
+    "title": "İletişim",
+    "intro": "Kartlar hakkında sorular, site hakkında geri bildirimler, iş birliği teklifleri — her mesajı okuyoruz.",
+    "writeToUs": "Bize yaz",
+    "responseTime": "Mesajların çoğuna 1–2 iş günü içinde yanıt veririz. Üretici hakkında daha hızlı yardım için Hakkımızda sayfasına veya ana sayfadaki SSS'ye göz at.",
+    "whatYouCanWrite": "Ne hakkında yazabilirsin",
+    "feedbackTitle": "Geri bildirim",
+    "feedbackBody": "Sana dokunan bir anlam, bir yazım hatası, bir öneri — hepsi hoş karşılanır.",
+    "questionsTitle": "Sorular",
+    "questionsBody": "Kartlar, deste veya sitenin nasıl çalıştığı hakkında.",
+    "partnershipTitle": "İş birliği",
+    "partnershipBody": "İş birlikleri, konuk içerik, lisans talepleri.",
+    "pressTitle": "Basın & medya",
+    "pressBody": "Röportaj talepleri, içerik talepleri veya basın kitleri."
+  },
+  "faq": {
+    "q1": "Bu tarot üreticisi gerçekten rastgele mi?",
+    "a1": "Evet. Her çekilişte tam 78 kartlık Rider-Waite-Smith destesini karıştırmak için tarayıcının kriptografik olarak güvenli rastgele sayı üreticisini (Web Crypto API) kullanıyoruz. Her kartın çıkma şansı eşittir — ve yaklaşık %30'u ters görünür, fiziksel bir okumada olduğu gibi.",
+    "q2": "Ne sıklıkla kart çekmeliyim?",
+    "a2": "Çoğu okuyucu sabahları bir günün kartı çekilişini önerir. Aynı soruyu kısa sürede tekrarlamak mesajı bulandırır — yeni bir kart çekmeden önce bir kartın oturmasına izin ver.",
+    "q3": "Büyük ve Küçük Arkana arasındaki fark nedir?",
+    "a3": "Büyük Arkana (22 kart) yaşamın büyük temalarını temsil eder — aşk, kader, dönüşüm. Küçük Arkana (Asalar, Kupalar, Kılıçlar ve Tılsımlar'da 56 kart) günlük yaşamdan söz eder. Üreticimiz tüm 78'den çeker.",
+    "q4": "Kartım neden bazen baş aşağı görünür?",
+    "a4": "Bu bir ters karttır — tarot okumasının geleneksel parçasıdır. Ters kart, ilgili ama ters bir anlam taşır — genellikle düz temanın engellenmiş veya çözülmemiş bir versiyonuna işaret eder.",
+    "q5": "Kullanmak için tarot hakkında bir şey bilmem gerekir mi?",
+    "a5": "Önceden bilgi gerekmez. Çektiğin her kart adıyla, anahtar kelimeleriyle, geleneksel anlamıyla, aşk ve kariyer yorumuyla ve kısa bir rehberle gelir.",
+    "q6": "tarotcard.art ücretsiz mi?",
+    "a6": "Evet — tamamen ücretsiz, hesap gerekmez, ödeme duvarı yok. Tam 78 kartlık deste ve her yorum okunmaya açık."
+  },
+  "footer": {
+    "cardOfTheDay": "Günün kartı",
+    "allCards": "Tüm 78 kart",
+    "majorArcana": "Büyük Arkana",
+    "minorArcana": "Küçük Arkana",
+    "about": "Hakkımızda",
+    "contacts": "İletişim",
+    "tagline": "Niyetle çekildi",
+    "publicDomain": "Rider-Waite-Smith desteye ait görseller kamu malıdır."
+  },
+  "suit": {
+    "wands": "Asalar",
+    "cups": "Kupalar",
+    "swords": "Kılıçlar",
+    "pentacles": "Tılsımlar"
+  },
+  "suitElement": {
+    "wands": "Ateş — tutku, yaratım, eylem",
+    "cups": "Su — duygu, aşk, sezgi",
+    "swords": "Hava — düşünce, çatışma, gerçek",
+    "pentacles": "Toprak — beden, para, iş"
+  },
+  "notFound": {
+    "kicker": "404",
+    "title": "Bu kart bu destede yok",
+    "intro": "Sayfa bulunamadı. Belki doğru kart seni ana sayfada bekliyor.",
+    "back": "Kart çek"
+  },
+  "common": {
+    "language": "Dil"
+  }
+}

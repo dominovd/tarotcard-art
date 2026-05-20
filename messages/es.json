@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "generator": "Generador",
+    "cards": "Cartas",
+    "about": "Sobre",
+    "contacts": "Contacto"
+  },
+  "meta": {
+    "home": {
+      "title": "Generador de Tarot — Saca tu carta del día",
+      "description": "Generador de tarot online gratuito. Saca tu carta del día del mazo completo de 78 cartas Rider-Waite y recibe al instante el significado, el amor y la interpretación profesional.",
+      "keywords": "generador de tarot|tarot gratis|carta del día|tirada de tarot|tarot online|tarot rider waite",
+      "ogTitle": "Generador de Tarot — Saca tu carta del día",
+      "ogDescription": "Generador de tarot online gratuito. Saca tu carta del día del mazo completo de 78 cartas Rider-Waite."
+    },
+    "cards": {
+      "title": "Las 78 cartas del Tarot — Significados e interpretaciones",
+      "description": "Explora las 78 cartas del mazo Rider-Waite-Smith: 22 Arcanos Mayores y 56 Arcanos Menores entre Bastos, Copas, Espadas y Oros."
+    },
+    "about": {
+      "title": "Sobre tarotcard.art",
+      "description": "Sobre tarotcard.art — un generador de tarot gratuito, sin invasión publicitaria, que usa el mazo Rider-Waite-Smith de dominio público."
+    },
+    "contacts": {
+      "title": "Contacto — tarotcard.art",
+      "description": "Ponte en contacto con tarotcard.art. Preguntas, comentarios, propuestas — escríbenos a info@tarotcard.art."
+    }
+  },
+  "home": {
+    "kicker": "✦ Generador de tarot gratis ✦",
+    "h1Part1": "Saca tu",
+    "h1Em": "carta del día",
+    "h1Part2": "y descubre el mensaje",
+    "intro": "Una carta. Un momento de quietud. Una interpretación instantánea del mazo completo Rider-Waite-Smith de 78 cartas — para guiar tu día, tu decisión, tu próximo paso.",
+    "drawButton": "Sacar carta",
+    "drawAgain": "Sacar otra",
+    "readFullMeaning": "Ver significado completo →",
+    "reversed": "Invertida",
+    "majorArcanaLabel": "Arcanos Mayores",
+    "ritual": "El ritual",
+    "howItWorks": "Cómo funciona",
+    "howIntro": "Tres respiraciones. Tres pasos. Una práctica milenaria hecha accesible online — sin cuenta, sin pago, solo tú y las cartas.",
+    "step1Title": "Concentra tu mente",
+    "step1Body": "Respira despacio. Mantén una pregunta en tu mente — sobre el amor, el trabajo, una decisión o simplemente el día que viene.",
+    "step2Title": "Saca la carta",
+    "step2Body": "Haz clic en la carta para barajar el mazo completo de 78 cartas y revelar la que te habla en este momento.",
+    "step3Title": "Lee el mensaje",
+    "step3Body": "Recibe una interpretación al instante — nombre, significado, notas sobre amor y trabajo, y una orientación para tu día.",
+    "majorPreviewKicker": "22 Arcanos Mayores",
+    "majorPreviewTitle": "Los grandes arquetipos",
+    "majorPreviewIntro": "Desde El Loco hasta El Mundo — las cartas que trazan el viaje del alma a través de los temas más universales.",
+    "browseAll": "Ver las 78 cartas →",
+    "minorKicker": "56 Arcanos Menores",
+    "minorTitle": "Cuatro palos, cuatro elementos",
+    "minorIntro": "Los Arcanos Menores hablan de lo cotidiano — relaciones, decisiones, trabajo y la textura del día a día.",
+    "cardsCount": "14 cartas →",
+    "aboutKicker": "tarotcard.art",
+    "aboutTitle": "Una puerta moderna a una práctica antigua",
+    "aboutQuote": "\"Las cartas no predicen el futuro. Revelan lo que ya sabes.\"",
+    "aboutP1": "Nuestro generador de tarot usa el mazo completo Rider-Waite-Smith de 78 cartas — la tradición de tarot más estudiada y confiable del mundo. Cada tirada se aleatoriza con el generador criptográfico seguro del navegador, así que ninguna lectura se repite igual.",
+    "aboutP2": "Tanto si eres un curioso que saca su primera carta como un lector experimentado buscando una tirada diaria rápida, tarotcard.art está hecho para ser bonito, gratuito y sin publicidad invasiva — un espacio tranquilo para la reflexión.",
+    "faqKicker": "Preguntas",
+    "faqTitle": "Preguntas frecuentes"
+  },
+  "card": {
+    "uprightMeaning": "Significado al derecho",
+    "reversedMeaning": "Significado invertido",
+    "love": "Amor",
+    "career": "Trabajo",
+    "todaysGuidance": "Guía para hoy",
+    "drawCard": "Sacar carta",
+    "moreFromMajor": "Más Arcanos Mayores",
+    "moreFromSuit": "Más de {suit}"
+  },
+  "cardsIndex": {
+    "kicker": "El mazo completo",
+    "title": "Las 78 cartas del tarot",
+    "intro": "Explora cada carta del mazo Rider-Waite-Smith. Haz clic en cualquiera para ver su significado completo, su interpretación invertida y notas sobre amor, trabajo y guía diaria.",
+    "majorKicker": "22 cartas",
+    "majorTitle": "Arcanos Mayores",
+    "majorIntro": "Los grandes arquetipos — el viaje del alma desde El Loco (0) hasta El Mundo (XXI).",
+    "suitKicker": "14 cartas"
+  },
+  "about": {
+    "kicker": "Sobre",
+    "title": "Un espacio tranquilo para la reflexión",
+    "quote": "\"Las cartas no predicen el futuro. Revelan lo que ya sabes.\"",
+    "p1": "tarotcard.art es un generador de tarot gratuito y sin publicidad invasiva, construido alrededor del mazo Rider-Waite-Smith de 78 cartas — la tradición de tarot más estudiada y confiable del mundo, publicada por primera vez en 1909 y ahora de dominio público.",
+    "p2": "Cada tirada usa el generador criptográfico seguro del navegador (Web Crypto API), así que el barajado es genuinamente impredecible. Aproximadamente el treinta por ciento de las cartas salen invertidas, replicando el ritmo de una lectura física.",
+    "p3": "No recopilamos datos personales, no pedimos cuentas ni mostramos publicidad invasiva. Las cartas están aquí para sacarse, libremente, por cualquiera — principiante o lector experimentado.",
+    "whatYouFind": "Qué encontrarás aquí",
+    "li1": "✦ Un generador de carta del día en la página principal",
+    "li2": "✦ Significados completos, interpretaciones invertidas y notas sobre amor y trabajo para cada carta del mazo",
+    "li3": "✦ Tanto Arcanos Mayores (22 cartas arquetípicas) como Arcanos Menores (56 cartas en cuatro palos)",
+    "imageryTitle": "Sobre las imágenes",
+    "imagery": "El mazo Rider-Waite-Smith fue ilustrado por Pamela Colman Smith y concebido por A. E. Waite en 1909. Ambos creadores fallecieron hace más de setenta años, y el mazo está en dominio público mundial. Las imágenes de este sitio se reproducen libremente bajo ese estatus."
+  },
+  "contacts": {
+    "kicker": "Escríbenos",
+    "title": "Contacto",
+    "intro": "Preguntas sobre las cartas, comentarios sobre el sitio, propuestas — leemos cada mensaje.",
+    "writeToUs": "Escríbenos",
+    "responseTime": "Respondemos la mayoría de los mensajes en 1–2 días laborables. Para ayuda más rápida con el generador, prueba la página Sobre o las preguntas frecuentes en la página principal.",
+    "whatYouCanWrite": "Sobre qué puedes escribir",
+    "feedbackTitle": "Comentarios",
+    "feedbackBody": "Un significado que te llegó, una errata, una sugerencia — todo bienvenido.",
+    "questionsTitle": "Preguntas",
+    "questionsBody": "Sobre las cartas, el mazo o cómo funciona el sitio.",
+    "partnershipTitle": "Colaboraciones",
+    "partnershipBody": "Colaboraciones, contenido invitado, consultas de licencias.",
+    "pressTitle": "Prensa y medios",
+    "pressBody": "Solicitudes de entrevista, cobertura mediática o kits de prensa."
+  },
+  "faq": {
+    "q1": "¿Este generador de tarot es realmente aleatorio?",
+    "a1": "Sí. Usamos el generador criptográficamente seguro del navegador (Web Crypto API) para barajar el mazo completo Rider-Waite-Smith en cada tirada. Cada carta tiene la misma probabilidad de salir — y alrededor del 30% aparecen invertidas, igual que en una lectura física.",
+    "q2": "¿Con qué frecuencia debo sacar una carta?",
+    "a2": "La mayoría de lectores recomienda una tirada de carta del día por la mañana. Hacer la misma pregunta repetidamente en poco tiempo tiende a enturbiar el mensaje — deja asentarse una carta antes de sacar otra.",
+    "q3": "¿Cuál es la diferencia entre Arcanos Mayores y Menores?",
+    "a3": "Los Arcanos Mayores (22 cartas) representan los grandes temas de la vida — amor, destino, transformación. Los Arcanos Menores (56 cartas en Bastos, Copas, Espadas y Oros) hablan de situaciones cotidianas. Nuestro generador saca de las 78 cartas.",
+    "q4": "¿Por qué a veces mi carta aparece al revés?",
+    "a4": "Es una carta invertida — parte tradicional de la lectura del tarot. Una carta invertida lleva un significado relacionado pero invertido, a menudo apuntando a una versión bloqueada o no resuelta del tema al derecho.",
+    "q5": "¿Necesito saber algo de tarot para usarlo?",
+    "a5": "No hace falta conocimiento previo. Cada carta que saques viene con su nombre, palabras clave, significado tradicional, interpretación de amor y trabajo, y una breve orientación.",
+    "q6": "¿tarotcard.art es gratis?",
+    "a6": "Sí — totalmente gratuito, sin cuenta, sin muro de pago. Todo el mazo de 78 cartas y cada interpretación están abiertas para leer."
+  },
+  "footer": {
+    "cardOfTheDay": "Carta del día",
+    "allCards": "Las 78 cartas",
+    "majorArcana": "Arcanos Mayores",
+    "minorArcana": "Arcanos Menores",
+    "about": "Sobre",
+    "contacts": "Contacto",
+    "tagline": "Sacadas con intención",
+    "publicDomain": "Las imágenes del mazo Rider-Waite-Smith son de dominio público."
+  },
+  "suit": {
+    "wands": "Bastos",
+    "cups": "Copas",
+    "swords": "Espadas",
+    "pentacles": "Oros"
+  },
+  "suitElement": {
+    "wands": "Fuego — pasión, creación, acción",
+    "cups": "Agua — emoción, amor, intuición",
+    "swords": "Aire — pensamiento, conflicto, verdad",
+    "pentacles": "Tierra — cuerpo, dinero, trabajo"
+  },
+  "notFound": {
+    "kicker": "404",
+    "title": "Esta carta no está en el mazo",
+    "intro": "No pudimos encontrar esa página. Quizá la carta correcta te espera en la página principal.",
+    "back": "Sacar una carta"
+  },
+  "common": {
+    "language": "Idioma"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "generator": "Generator",
+    "cards": "Cards",
+    "about": "About",
+    "contacts": "Contacts"
+  },
+  "meta": {
+    "home": {
+      "title": "Tarot Card Generator — Draw Your Card of the Day",
+      "description": "Free online tarot card generator. Draw your card of the day from the full 78-card Rider-Waite deck and receive an instant meaning, love, and career interpretation.",
+      "keywords": "tarot card generator|random tarot card generator|card of the day|free tarot|rider waite tarot|tarot reading online",
+      "ogTitle": "Tarot Card Generator — Draw Your Card of the Day",
+      "ogDescription": "Free online tarot card generator. Draw your card of the day from the full 78-card Rider-Waite deck."
+    },
+    "cards": {
+      "title": "All 78 Tarot Cards — Meanings & Interpretations",
+      "description": "Browse all 78 cards of the Rider-Waite-Smith tarot deck: 22 Major Arcana and 56 Minor Arcana across Wands, Cups, Swords, and Pentacles."
+    },
+    "about": {
+      "title": "About tarotcard.art",
+      "description": "About tarotcard.art — a free, ad-light tarot card generator using the public-domain Rider-Waite-Smith deck."
+    },
+    "contacts": {
+      "title": "Contact tarotcard.art",
+      "description": "Get in touch with tarotcard.art. Questions, feedback, partnership inquiries — write to us at info@tarotcard.art."
+    }
+  },
+  "home": {
+    "kicker": "✦ Free tarot card generator ✦",
+    "h1Part1": "Draw your",
+    "h1Em": "card of the day",
+    "h1Part2": "and reveal the message",
+    "intro": "One card. One moment of stillness. An instant interpretation drawn from the full 78-card Rider-Waite-Smith deck — to guide your day, your decision, your next step.",
+    "drawButton": "Draw your card",
+    "drawAgain": "Draw again",
+    "readFullMeaning": "Read full meaning →",
+    "reversed": "Reversed",
+    "majorArcanaLabel": "Major Arcana",
+    "ritual": "The ritual",
+    "howItWorks": "How it works",
+    "howIntro": "Three breaths. Three steps. A timeless practice made accessible online — no account, no payment, just you and the cards.",
+    "step1Title": "Focus your mind",
+    "step1Body": "Take a slow breath. Hold a question in your thoughts — about love, work, a choice, or simply the day ahead.",
+    "step2Title": "Draw the card",
+    "step2Body": "Click the card to shuffle the full 78-card deck and reveal the one that speaks to you in this moment.",
+    "step3Title": "Read the message",
+    "step3Body": "Receive an instant interpretation — name, meaning, love and career notes, and a piece of guidance for your day.",
+    "majorPreviewKicker": "22 Major Arcana",
+    "majorPreviewTitle": "The great archetypes",
+    "majorPreviewIntro": "From The Fool to The World — the cards that map the soul's journey through life's most universal themes.",
+    "browseAll": "Browse all 78 cards →",
+    "minorKicker": "56 Minor Arcana",
+    "minorTitle": "Four suits, four elements",
+    "minorIntro": "The Minor Arcana speaks to the everyday — relationships, decisions, work, and the texture of daily life.",
+    "cardsCount": "14 cards →",
+    "aboutKicker": "tarotcard.art",
+    "aboutTitle": "A modern doorway to an ancient practice",
+    "aboutQuote": "\"The cards do not predict the future. They reveal what you already know.\"",
+    "aboutP1": "Our tarot card generator uses the complete 78-card Rider-Waite-Smith deck — the most studied and trusted tarot tradition in the world. Each draw is randomized using the browser's cryptographically-secure random number generator, so no two readings repeat the same way.",
+    "aboutP2": "Whether you are a curious newcomer drawing your first card or an experienced reader looking for a quick daily pull, tarotcard.art is built to be beautiful, free, and ad-light — a quiet space for reflection.",
+    "faqKicker": "Questions",
+    "faqTitle": "Frequently asked"
+  },
+  "card": {
+    "uprightMeaning": "Upright meaning",
+    "reversedMeaning": "Reversed meaning",
+    "love": "Love",
+    "career": "Career",
+    "todaysGuidance": "Today's guidance",
+    "drawCard": "Draw a card",
+    "moreFromMajor": "More from the Major Arcana",
+    "moreFromSuit": "More from the {suit}"
+  },
+  "cardsIndex": {
+    "kicker": "The full deck",
+    "title": "All 78 tarot cards",
+    "intro": "Browse every card in the Rider-Waite-Smith deck. Click any card for its full meaning, reversed interpretation, and notes on love, career, and daily guidance.",
+    "majorKicker": "22 cards",
+    "majorTitle": "Major Arcana",
+    "majorIntro": "The great archetypes — the soul's journey from The Fool (0) to The World (XXI).",
+    "suitKicker": "14 cards"
+  },
+  "about": {
+    "kicker": "About",
+    "title": "A quiet space for reflection",
+    "quote": "\"The cards do not predict the future. They reveal what you already know.\"",
+    "p1": "tarotcard.art is a free, ad-light tarot card generator built around the full 78-card Rider-Waite-Smith deck — the most studied and most trusted tarot tradition in the world, first published in 1909 and now in the public domain.",
+    "p2": "Every draw uses your browser's cryptographically-secure random number generator (Web Crypto API), so the shuffle is genuinely unpredictable. Roughly thirty percent of cards appear reversed, mirroring the rhythm of a hand-shuffled physical reading.",
+    "p3": "We do not collect personal data, ask for accounts, or run intrusive ads. The cards are here to be drawn, freely, by anyone — newcomer or experienced reader.",
+    "whatYouFind": "What you will find here",
+    "li1": "✦ A card-of-the-day generator on the home page",
+    "li2": "✦ Full meanings, reversed interpretations, and love and career notes for every card in the deck",
+    "li3": "✦ Both Major Arcana (22 archetypal cards) and Minor Arcana (56 cards across four suits)",
+    "imageryTitle": "A note on the imagery",
+    "imagery": "The Rider-Waite-Smith deck was illustrated by Pamela Colman Smith and conceived by A. E. Waite in 1909. Both creators have been deceased for over seventy years, and the deck has entered the worldwide public domain. The card imagery on this site is reproduced freely under that status."
+  },
+  "contacts": {
+    "kicker": "Get in touch",
+    "title": "Contacts",
+    "intro": "Questions about the cards, feedback on the site, partnership inquiries — we read every message.",
+    "writeToUs": "Write to us",
+    "responseTime": "We respond to most messages within 1–2 business days. For faster help with the generator itself, try the about page or the FAQ on the home page.",
+    "whatYouCanWrite": "What you can write about",
+    "feedbackTitle": "Feedback",
+    "feedbackBody": "A card meaning that landed for you, a typo, a suggestion — all welcome.",
+    "questionsTitle": "Questions",
+    "questionsBody": "About the cards, the deck, or how the site works.",
+    "partnershipTitle": "Partnership",
+    "partnershipBody": "Collaborations, guest content, licensing inquiries.",
+    "pressTitle": "Press & media",
+    "pressBody": "Interview requests, feature inquiries, or media kits."
+  },
+  "faq": {
+    "q1": "Is this tarot card generator really random?",
+    "a1": "Yes. We use the browser's cryptographically-secure random number generator (Web Crypto API) to shuffle the full 78-card Rider-Waite-Smith deck on every draw. Each card has an equal chance of being pulled — and roughly 30% appear reversed, just as in a hand-shuffled physical reading.",
+    "q2": "How often should I draw a card?",
+    "a2": "Most readers recommend one card-of-the-day pull in the morning. Drawing the same question repeatedly within a short time tends to muddy the message — let one card settle before drawing again.",
+    "q3": "What is the difference between Major and Minor Arcana?",
+    "a3": "The Major Arcana (22 cards) represent life's big themes — love, fate, transformation. The Minor Arcana (56 cards across Wands, Cups, Swords, and Pentacles) speak to everyday situations and feelings. Our generator pulls from all 78 cards.",
+    "q4": "Why does my card appear upside-down sometimes?",
+    "a4": "That is a reversed card — a traditional part of tarot reading. A reversed card carries a related but inverted meaning, often pointing to a blocked, internal, or unresolved version of the upright theme.",
+    "q5": "Do I need to know anything about tarot to use this?",
+    "a5": "No prior knowledge needed. Every card you draw comes with its name, keywords, traditional meaning, love and career interpretation, and a short piece of guidance.",
+    "q6": "Is tarotcard.art free?",
+    "a6": "Yes — fully free, no account needed, no paywall. The full 78-card deck and every interpretation is open to read."
+  },
+  "footer": {
+    "cardOfTheDay": "Card of the day",
+    "allCards": "All 78 cards",
+    "majorArcana": "Major Arcana",
+    "minorArcana": "Minor Arcana",
+    "about": "About",
+    "contacts": "Contacts",
+    "tagline": "Drawn with intention",
+    "publicDomain": "Rider-Waite-Smith deck imagery is in the public domain."
+  },
+  "suit": {
+    "wands": "Wands",
+    "cups": "Cups",
+    "swords": "Swords",
+    "pentacles": "Pentacles"
+  },
+  "suitElement": {
+    "wands": "Fire — passion, creation, action",
+    "cups": "Water — emotion, love, intuition",
+    "swords": "Air — thought, conflict, truth",
+    "pentacles": "Earth — body, money, work"
+  },
+  "notFound": {
+    "kicker": "404",
+    "title": "The card is not in this deck",
+    "intro": "That page could not be found. Perhaps the right card is waiting for you on the home page.",
+    "back": "Draw a card"
+  },
+  "common": {
+    "language": "Language"
+  }
+}

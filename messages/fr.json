@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "generator": "Générateur",
+    "cards": "Cartes",
+    "about": "À propos",
+    "contacts": "Contact"
+  },
+  "meta": {
+    "home": {
+      "title": "Générateur de Tarot — Tirez votre carte du jour",
+      "description": "Générateur de tarot en ligne gratuit. Tirez votre carte du jour dans le jeu complet de 78 cartes Rider-Waite et recevez instantanément la signification, l'amour et l'interprétation pour le travail.",
+      "keywords": "générateur de tarot|tarot gratuit|carte du jour|tirage de tarot|tarot en ligne|tarot rider waite",
+      "ogTitle": "Générateur de Tarot — Tirez votre carte du jour",
+      "ogDescription": "Générateur de tarot en ligne gratuit. Tirez votre carte du jour dans le jeu complet de 78 cartes Rider-Waite."
+    },
+    "cards": {
+      "title": "Les 78 cartes du Tarot — Significations et interprétations",
+      "description": "Parcourez les 78 cartes du jeu Rider-Waite-Smith : 22 Arcanes Majeurs et 56 Arcanes Mineurs répartis en Bâtons, Coupes, Épées et Deniers."
+    },
+    "about": {
+      "title": "À propos de tarotcard.art",
+      "description": "À propos de tarotcard.art — un générateur de tarot gratuit, sans publicité envahissante, basé sur le jeu Rider-Waite-Smith du domaine public."
+    },
+    "contacts": {
+      "title": "Contact — tarotcard.art",
+      "description": "Contactez tarotcard.art. Questions, retours, partenariats — écrivez-nous à info@tarotcard.art."
+    }
+  },
+  "home": {
+    "kicker": "✦ Générateur de tarot gratuit ✦",
+    "h1Part1": "Tirez votre",
+    "h1Em": "carte du jour",
+    "h1Part2": "et découvrez le message",
+    "intro": "Une carte. Un instant de calme. Une interprétation immédiate tirée du jeu complet Rider-Waite-Smith de 78 cartes — pour guider votre journée, votre décision, votre prochain pas.",
+    "drawButton": "Tirer une carte",
+    "drawAgain": "Tirer encore",
+    "readFullMeaning": "Lire la signification complète →",
+    "reversed": "Inversée",
+    "majorArcanaLabel": "Arcanes Majeurs",
+    "ritual": "Le rituel",
+    "howItWorks": "Comment ça marche",
+    "howIntro": "Trois respirations. Trois étapes. Une pratique millénaire rendue accessible en ligne — sans compte, sans paiement, juste vous et les cartes.",
+    "step1Title": "Concentrez votre esprit",
+    "step1Body": "Respirez doucement. Gardez une question en tête — sur l'amour, le travail, un choix, ou simplement la journée à venir.",
+    "step2Title": "Tirez la carte",
+    "step2Body": "Cliquez sur la carte pour mélanger le jeu complet de 78 cartes et révéler celle qui vous parle en ce moment.",
+    "step3Title": "Lisez le message",
+    "step3Body": "Recevez une interprétation immédiate — nom, signification, notes sur l'amour et le travail, et un conseil pour votre journée.",
+    "majorPreviewKicker": "22 Arcanes Majeurs",
+    "majorPreviewTitle": "Les grands archétypes",
+    "majorPreviewIntro": "Du Mat au Monde — les cartes qui dessinent le voyage de l'âme à travers les thèmes les plus universels.",
+    "browseAll": "Voir les 78 cartes →",
+    "minorKicker": "56 Arcanes Mineurs",
+    "minorTitle": "Quatre couleurs, quatre éléments",
+    "minorIntro": "Les Arcanes Mineurs parlent du quotidien — relations, décisions, travail, et la texture de la vie de tous les jours.",
+    "cardsCount": "14 cartes →",
+    "aboutKicker": "tarotcard.art",
+    "aboutTitle": "Une porte moderne sur une pratique ancienne",
+    "aboutQuote": "\"Les cartes ne prédisent pas l'avenir. Elles révèlent ce que vous savez déjà.\"",
+    "aboutP1": "Notre générateur de tarot utilise le jeu complet Rider-Waite-Smith de 78 cartes — la tradition de tarot la plus étudiée et la plus fiable au monde. Chaque tirage est aléatoire grâce au générateur cryptographique sécurisé du navigateur, aucune lecture ne se répète à l'identique.",
+    "aboutP2": "Que vous soyez un curieux tirant votre première carte ou un lecteur expérimenté cherchant un tirage quotidien rapide, tarotcard.art est conçu pour être beau, gratuit et sans publicité envahissante — un espace calme pour la réflexion.",
+    "faqKicker": "Questions",
+    "faqTitle": "Questions fréquentes"
+  },
+  "card": {
+    "uprightMeaning": "Signification à l'endroit",
+    "reversedMeaning": "Signification inversée",
+    "love": "Amour",
+    "career": "Travail",
+    "todaysGuidance": "Conseil du jour",
+    "drawCard": "Tirer une carte",
+    "moreFromMajor": "Plus d'Arcanes Majeurs",
+    "moreFromSuit": "Plus de {suit}"
+  },
+  "cardsIndex": {
+    "kicker": "Le jeu complet",
+    "title": "Les 78 cartes du tarot",
+    "intro": "Parcourez chaque carte du jeu Rider-Waite-Smith. Cliquez sur n'importe laquelle pour voir sa signification complète, son interprétation inversée et ses notes sur l'amour, le travail et le conseil du jour.",
+    "majorKicker": "22 cartes",
+    "majorTitle": "Arcanes Majeurs",
+    "majorIntro": "Les grands archétypes — le voyage de l'âme du Mat (0) au Monde (XXI).",
+    "suitKicker": "14 cartes"
+  },
+  "about": {
+    "kicker": "À propos",
+    "title": "Un espace calme pour la réflexion",
+    "quote": "\"Les cartes ne prédisent pas l'avenir. Elles révèlent ce que vous savez déjà.\"",
+    "p1": "tarotcard.art est un générateur de tarot gratuit et sans publicité envahissante, construit autour du jeu Rider-Waite-Smith de 78 cartes — la tradition de tarot la plus étudiée et la plus fiable au monde, publiée pour la première fois en 1909 et désormais dans le domaine public.",
+    "p2": "Chaque tirage utilise le générateur cryptographique sécurisé du navigateur (Web Crypto API), le mélange est donc véritablement imprévisible. Environ trente pour cent des cartes apparaissent inversées, comme dans un tirage physique mélangé à la main.",
+    "p3": "Nous ne collectons pas de données personnelles, ne demandons pas de compte et ne diffusons pas de publicité envahissante. Les cartes sont là pour être tirées, librement, par tous — débutant comme lecteur confirmé.",
+    "whatYouFind": "Ce que vous trouverez ici",
+    "li1": "✦ Un générateur de carte du jour sur la page d'accueil",
+    "li2": "✦ Significations complètes, interprétations inversées et notes sur l'amour et le travail pour chaque carte",
+    "li3": "✦ Les Arcanes Majeurs (22 cartes archétypales) et les Arcanes Mineurs (56 cartes en quatre couleurs)",
+    "imageryTitle": "À propos des illustrations",
+    "imagery": "Le jeu Rider-Waite-Smith a été illustré par Pamela Colman Smith et conçu par A. E. Waite en 1909. Les deux créateurs sont décédés depuis plus de soixante-dix ans, et le jeu est dans le domaine public mondial. Les illustrations de ce site sont reproduites librement sous ce statut."
+  },
+  "contacts": {
+    "kicker": "Nous contacter",
+    "title": "Contact",
+    "intro": "Questions sur les cartes, retours sur le site, propositions de partenariat — nous lisons chaque message.",
+    "writeToUs": "Écrivez-nous",
+    "responseTime": "Nous répondons à la plupart des messages sous 1 à 2 jours ouvrés. Pour une aide plus rapide sur le générateur, consultez la page À propos ou la FAQ sur la page d'accueil.",
+    "whatYouCanWrite": "Sur quoi écrire",
+    "feedbackTitle": "Retours",
+    "feedbackBody": "Une signification qui vous a touché, une coquille, une suggestion — tout est bienvenu.",
+    "questionsTitle": "Questions",
+    "questionsBody": "Sur les cartes, le jeu ou le fonctionnement du site.",
+    "partnershipTitle": "Partenariat",
+    "partnershipBody": "Collaborations, contenus invités, demandes de licence.",
+    "pressTitle": "Presse et médias",
+    "pressBody": "Demandes d'interview, articles ou kits presse."
+  },
+  "faq": {
+    "q1": "Ce générateur de tarot est-il vraiment aléatoire ?",
+    "a1": "Oui. Nous utilisons le générateur cryptographiquement sécurisé du navigateur (Web Crypto API) pour mélanger le jeu complet Rider-Waite-Smith à chaque tirage. Chaque carte a une chance égale d'être tirée — et environ 30% apparaissent inversées, comme dans un tirage physique.",
+    "q2": "À quelle fréquence devrais-je tirer une carte ?",
+    "a2": "La plupart des lecteurs recommandent un tirage de carte du jour le matin. Refaire la même question dans un court intervalle a tendance à brouiller le message — laissez une carte se déposer avant d'en tirer une autre.",
+    "q3": "Quelle est la différence entre Arcanes Majeurs et Mineurs ?",
+    "a3": "Les Arcanes Majeurs (22 cartes) représentent les grands thèmes de la vie — amour, destin, transformation. Les Arcanes Mineurs (56 cartes en Bâtons, Coupes, Épées et Deniers) parlent du quotidien. Notre générateur pioche dans les 78.",
+    "q4": "Pourquoi ma carte apparaît parfois à l'envers ?",
+    "a4": "C'est une carte inversée — partie traditionnelle de la lecture du tarot. Une carte inversée porte un sens lié mais inversé, souvent une version bloquée ou non résolue du thème à l'endroit.",
+    "q5": "Faut-il connaître le tarot pour l'utiliser ?",
+    "a5": "Aucune connaissance préalable nécessaire. Chaque carte vient avec son nom, ses mots-clés, sa signification traditionnelle, son interprétation amour et travail, et un court conseil.",
+    "q6": "tarotcard.art est-il gratuit ?",
+    "a6": "Oui — totalement gratuit, sans compte, sans paywall. Le jeu complet de 78 cartes et chaque interprétation sont ouverts à la lecture."
+  },
+  "footer": {
+    "cardOfTheDay": "Carte du jour",
+    "allCards": "Les 78 cartes",
+    "majorArcana": "Arcanes Majeurs",
+    "minorArcana": "Arcanes Mineurs",
+    "about": "À propos",
+    "contacts": "Contact",
+    "tagline": "Tirées avec intention",
+    "publicDomain": "Les illustrations du jeu Rider-Waite-Smith sont dans le domaine public."
+  },
+  "suit": {
+    "wands": "Bâtons",
+    "cups": "Coupes",
+    "swords": "Épées",
+    "pentacles": "Deniers"
+  },
+  "suitElement": {
+    "wands": "Feu — passion, création, action",
+    "cups": "Eau — émotion, amour, intuition",
+    "swords": "Air — pensée, conflit, vérité",
+    "pentacles": "Terre — corps, argent, travail"
+  },
+  "notFound": {
+    "kicker": "404",
+    "title": "Cette carte n'est pas dans ce jeu",
+    "intro": "Cette page est introuvable. Peut-être que la bonne carte vous attend sur la page d'accueil.",
+    "back": "Tirer une carte"
+  },
+  "common": {
+    "language": "Langue"
+  }
+}

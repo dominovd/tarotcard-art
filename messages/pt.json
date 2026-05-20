@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "generator": "Gerador",
+    "cards": "Cartas",
+    "about": "Sobre",
+    "contacts": "Contato"
+  },
+  "meta": {
+    "home": {
+      "title": "Gerador de Tarot — Tire sua carta do dia",
+      "description": "Gerador de tarot online grátis. Tire sua carta do dia do baralho completo de 78 cartas Rider-Waite e receba na hora o significado, o amor e a interpretação profissional.",
+      "keywords": "gerador de tarot|tarot grátis|carta do dia|tarot online|leitura de tarot|tarot rider waite",
+      "ogTitle": "Gerador de Tarot — Tire sua carta do dia",
+      "ogDescription": "Gerador de tarot online grátis. Tire sua carta do dia do baralho completo de 78 cartas Rider-Waite."
+    },
+    "cards": {
+      "title": "As 78 cartas do Tarot — Significados e interpretações",
+      "description": "Explore todas as 78 cartas do baralho Rider-Waite-Smith: 22 Arcanos Maiores e 56 Arcanos Menores entre Paus, Copas, Espadas e Ouros."
+    },
+    "about": {
+      "title": "Sobre tarotcard.art",
+      "description": "Sobre tarotcard.art — um gerador de tarot grátis, sem publicidade invasiva, usando o baralho Rider-Waite-Smith em domínio público."
+    },
+    "contacts": {
+      "title": "Contato — tarotcard.art",
+      "description": "Entre em contato com tarotcard.art. Dúvidas, sugestões, parcerias — escreva para info@tarotcard.art."
+    }
+  },
+  "home": {
+    "kicker": "✦ Gerador de tarot grátis ✦",
+    "h1Part1": "Tire sua",
+    "h1Em": "carta do dia",
+    "h1Part2": "e descubra a mensagem",
+    "intro": "Uma carta. Um momento de quietude. Uma interpretação imediata do baralho completo Rider-Waite-Smith de 78 cartas — para guiar seu dia, sua decisão, seu próximo passo.",
+    "drawButton": "Tirar carta",
+    "drawAgain": "Tirar outra",
+    "readFullMeaning": "Ver significado completo →",
+    "reversed": "Invertida",
+    "majorArcanaLabel": "Arcanos Maiores",
+    "ritual": "O ritual",
+    "howItWorks": "Como funciona",
+    "howIntro": "Três respirações. Três passos. Uma prática milenar feita acessível online — sem conta, sem pagamento, só você e as cartas.",
+    "step1Title": "Concentre sua mente",
+    "step1Body": "Respire devagar. Mantenha uma pergunta nos seus pensamentos — sobre amor, trabalho, uma escolha ou simplesmente o dia que vem.",
+    "step2Title": "Tire a carta",
+    "step2Body": "Clique na carta para embaralhar as 78 e revelar aquela que fala com você neste momento.",
+    "step3Title": "Leia a mensagem",
+    "step3Body": "Receba uma interpretação imediata — nome, significado, notas sobre amor e trabalho, e uma orientação para o seu dia.",
+    "majorPreviewKicker": "22 Arcanos Maiores",
+    "majorPreviewTitle": "Os grandes arquétipos",
+    "majorPreviewIntro": "Do Louco ao Mundo — as cartas que mapeiam a jornada da alma pelos temas mais universais.",
+    "browseAll": "Ver as 78 cartas →",
+    "minorKicker": "56 Arcanos Menores",
+    "minorTitle": "Quatro naipes, quatro elementos",
+    "minorIntro": "Os Arcanos Menores falam do cotidiano — relacionamentos, decisões, trabalho e a textura do dia a dia.",
+    "cardsCount": "14 cartas →",
+    "aboutKicker": "tarotcard.art",
+    "aboutTitle": "Uma porta moderna para uma prática antiga",
+    "aboutQuote": "\"As cartas não preveem o futuro. Elas revelam o que você já sabe.\"",
+    "aboutP1": "Nosso gerador de tarot usa o baralho completo Rider-Waite-Smith de 78 cartas — a tradição de tarot mais estudada e confiável do mundo. Cada tirada é aleatorizada pelo gerador criptográfico seguro do navegador, então nenhuma leitura se repete igual.",
+    "aboutP2": "Seja você um curioso tirando sua primeira carta ou um leitor experiente buscando uma tirada diária rápida, tarotcard.art foi feito para ser bonito, grátis e sem publicidade invasiva — um espaço tranquilo para reflexão.",
+    "faqKicker": "Perguntas",
+    "faqTitle": "Perguntas frequentes"
+  },
+  "card": {
+    "uprightMeaning": "Significado normal",
+    "reversedMeaning": "Significado invertido",
+    "love": "Amor",
+    "career": "Trabalho",
+    "todaysGuidance": "Guia para hoje",
+    "drawCard": "Tirar carta",
+    "moreFromMajor": "Mais Arcanos Maiores",
+    "moreFromSuit": "Mais de {suit}"
+  },
+  "cardsIndex": {
+    "kicker": "O baralho completo",
+    "title": "As 78 cartas do tarot",
+    "intro": "Explore cada carta do baralho Rider-Waite-Smith. Clique em qualquer uma para ver o significado completo, a interpretação invertida e notas sobre amor, trabalho e guia diária.",
+    "majorKicker": "22 cartas",
+    "majorTitle": "Arcanos Maiores",
+    "majorIntro": "Os grandes arquétipos — a jornada da alma do Louco (0) ao Mundo (XXI).",
+    "suitKicker": "14 cartas"
+  },
+  "about": {
+    "kicker": "Sobre",
+    "title": "Um espaço tranquilo para reflexão",
+    "quote": "\"As cartas não preveem o futuro. Elas revelam o que você já sabe.\"",
+    "p1": "tarotcard.art é um gerador de tarot grátis e sem publicidade invasiva, construído em torno do baralho Rider-Waite-Smith de 78 cartas — a tradição de tarot mais estudada e confiável do mundo, publicada pela primeira vez em 1909 e agora em domínio público.",
+    "p2": "Cada tirada usa o gerador criptográfico seguro do navegador (Web Crypto API), então o embaralhamento é genuinamente imprevisível. Cerca de trinta por cento das cartas saem invertidas, espelhando o ritmo de uma leitura física embaralhada à mão.",
+    "p3": "Não coletamos dados pessoais, não pedimos contas e não exibimos publicidade invasiva. As cartas estão aqui para serem tiradas, livremente, por qualquer pessoa — iniciante ou leitor experiente.",
+    "whatYouFind": "O que você vai encontrar aqui",
+    "li1": "✦ Um gerador de carta do dia na página inicial",
+    "li2": "✦ Significados completos, interpretações invertidas e notas sobre amor e trabalho para cada carta do baralho",
+    "li3": "✦ Tanto Arcanos Maiores (22 cartas arquetípicas) quanto Arcanos Menores (56 cartas em quatro naipes)",
+    "imageryTitle": "Sobre as imagens",
+    "imagery": "O baralho Rider-Waite-Smith foi ilustrado por Pamela Colman Smith e concebido por A. E. Waite em 1909. Ambos os criadores faleceram há mais de setenta anos, e o baralho está em domínio público mundial. As imagens deste site são reproduzidas livremente sob esse status."
+  },
+  "contacts": {
+    "kicker": "Escreva pra nós",
+    "title": "Contato",
+    "intro": "Dúvidas sobre as cartas, sugestões sobre o site, propostas de parceria — lemos cada mensagem.",
+    "writeToUs": "Escreva pra nós",
+    "responseTime": "Respondemos a maioria das mensagens em 1 a 2 dias úteis. Para ajuda mais rápida com o gerador, veja a página Sobre ou as perguntas frequentes na página inicial.",
+    "whatYouCanWrite": "Sobre o que você pode escrever",
+    "feedbackTitle": "Comentários",
+    "feedbackBody": "Um significado que te tocou, um erro de digitação, uma sugestão — tudo bem-vindo.",
+    "questionsTitle": "Dúvidas",
+    "questionsBody": "Sobre as cartas, o baralho ou como o site funciona.",
+    "partnershipTitle": "Parceria",
+    "partnershipBody": "Colaborações, conteúdo convidado, consultas de licenciamento.",
+    "pressTitle": "Imprensa e mídia",
+    "pressBody": "Pedidos de entrevista, cobertura ou kits de imprensa."
+  },
+  "faq": {
+    "q1": "Este gerador de tarot é realmente aleatório?",
+    "a1": "Sim. Usamos o gerador criptograficamente seguro do navegador (Web Crypto API) para embaralhar o baralho completo Rider-Waite-Smith em cada tirada. Cada carta tem a mesma chance de sair — e cerca de 30% aparecem invertidas, como numa leitura física.",
+    "q2": "Com que frequência devo tirar uma carta?",
+    "a2": "A maioria dos leitores recomenda uma carta do dia pela manhã. Repetir a mesma pergunta em pouco tempo costuma confundir a mensagem — deixe uma carta assentar antes de tirar outra.",
+    "q3": "Qual a diferença entre Arcanos Maiores e Menores?",
+    "a3": "Os Arcanos Maiores (22 cartas) representam os grandes temas da vida — amor, destino, transformação. Os Arcanos Menores (56 cartas em Paus, Copas, Espadas e Ouros) falam de situações cotidianas. Nosso gerador tira das 78.",
+    "q4": "Por que minha carta às vezes aparece de cabeça para baixo?",
+    "a4": "É uma carta invertida — parte tradicional da leitura de tarot. Uma carta invertida tem um significado relacionado, mas invertido, geralmente apontando para uma versão bloqueada ou não resolvida do tema normal.",
+    "q5": "Preciso saber alguma coisa de tarot para usar?",
+    "a5": "Não precisa de conhecimento prévio. Cada carta vem com nome, palavras-chave, significado tradicional, interpretação de amor e trabalho e uma orientação curta.",
+    "q6": "tarotcard.art é grátis?",
+    "a6": "Sim — totalmente grátis, sem conta, sem paywall. O baralho completo de 78 cartas e cada interpretação estão abertos para ler."
+  },
+  "footer": {
+    "cardOfTheDay": "Carta do dia",
+    "allCards": "As 78 cartas",
+    "majorArcana": "Arcanos Maiores",
+    "minorArcana": "Arcanos Menores",
+    "about": "Sobre",
+    "contacts": "Contato",
+    "tagline": "Tiradas com intenção",
+    "publicDomain": "As imagens do baralho Rider-Waite-Smith estão em domínio público."
+  },
+  "suit": {
+    "wands": "Paus",
+    "cups": "Copas",
+    "swords": "Espadas",
+    "pentacles": "Ouros"
+  },
+  "suitElement": {
+    "wands": "Fogo — paixão, criação, ação",
+    "cups": "Água — emoção, amor, intuição",
+    "swords": "Ar — pensamento, conflito, verdade",
+    "pentacles": "Terra — corpo, dinheiro, trabalho"
+  },
+  "notFound": {
+    "kicker": "404",
+    "title": "Esta carta não está neste baralho",
+    "intro": "Não conseguimos encontrar essa página. Talvez a carta certa esteja te esperando na página inicial.",
+    "back": "Tirar uma carta"
+  },
+  "common": {
+    "language": "Idioma"
+  }
+}

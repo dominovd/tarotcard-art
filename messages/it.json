@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "generator": "Generatore",
+    "cards": "Carte",
+    "about": "Chi siamo",
+    "contacts": "Contatti"
+  },
+  "meta": {
+    "home": {
+      "title": "Generatore di Tarocchi — Pesca la tua carta del giorno",
+      "description": "Generatore di tarocchi online gratuito. Pesca la tua carta del giorno dal mazzo completo di 78 carte Rider-Waite e ricevi all'istante significato, amore e interpretazione professionale.",
+      "keywords": "generatore di tarocchi|tarocchi gratis|carta del giorno|lettura tarocchi|tarocchi online|tarocchi rider waite",
+      "ogTitle": "Generatore di Tarocchi — Pesca la tua carta del giorno",
+      "ogDescription": "Generatore di tarocchi online gratuito. Pesca la tua carta del giorno dal mazzo completo Rider-Waite di 78 carte."
+    },
+    "cards": {
+      "title": "Le 78 carte dei Tarocchi — Significati e interpretazioni",
+      "description": "Sfoglia tutte le 78 carte del mazzo Rider-Waite-Smith: 22 Arcani Maggiori e 56 Arcani Minori tra Bastoni, Coppe, Spade e Denari."
+    },
+    "about": {
+      "title": "Chi siamo — tarotcard.art",
+      "description": "Chi siamo — tarotcard.art è un generatore di tarocchi gratuito, senza pubblicità invadenti, basato sul mazzo Rider-Waite-Smith di pubblico dominio."
+    },
+    "contacts": {
+      "title": "Contatti — tarotcard.art",
+      "description": "Contatta tarotcard.art. Domande, feedback, proposte di collaborazione — scrivici a info@tarotcard.art."
+    }
+  },
+  "home": {
+    "kicker": "✦ Generatore di tarocchi gratis ✦",
+    "h1Part1": "Pesca la tua",
+    "h1Em": "carta del giorno",
+    "h1Part2": "e scopri il messaggio",
+    "intro": "Una carta. Un momento di silenzio. Un'interpretazione immediata dal mazzo completo Rider-Waite-Smith di 78 carte — per guidare la tua giornata, la tua decisione, il tuo prossimo passo.",
+    "drawButton": "Pesca una carta",
+    "drawAgain": "Pesca ancora",
+    "readFullMeaning": "Leggi il significato completo →",
+    "reversed": "Rovesciata",
+    "majorArcanaLabel": "Arcani Maggiori",
+    "ritual": "Il rituale",
+    "howItWorks": "Come funziona",
+    "howIntro": "Tre respiri. Tre passi. Una pratica antica resa accessibile online — senza account, senza pagamento, solo tu e le carte.",
+    "step1Title": "Concentra la mente",
+    "step1Body": "Respira lentamente. Tieni una domanda nei tuoi pensieri — sull'amore, sul lavoro, su una scelta o semplicemente sulla giornata che ti attende.",
+    "step2Title": "Pesca la carta",
+    "step2Body": "Clicca sulla carta per mescolare il mazzo completo di 78 carte e rivelare quella che ti parla in questo momento.",
+    "step3Title": "Leggi il messaggio",
+    "step3Body": "Ricevi un'interpretazione immediata — nome, significato, note su amore e lavoro, e un consiglio per la tua giornata.",
+    "majorPreviewKicker": "22 Arcani Maggiori",
+    "majorPreviewTitle": "I grandi archetipi",
+    "majorPreviewIntro": "Dal Matto al Mondo — le carte che tracciano il viaggio dell'anima attraverso i temi più universali.",
+    "browseAll": "Esplora tutte le 78 carte →",
+    "minorKicker": "56 Arcani Minori",
+    "minorTitle": "Quattro semi, quattro elementi",
+    "minorIntro": "Gli Arcani Minori parlano del quotidiano — relazioni, decisioni, lavoro e la trama della vita di tutti i giorni.",
+    "cardsCount": "14 carte →",
+    "aboutKicker": "tarotcard.art",
+    "aboutTitle": "Una porta moderna su una pratica antica",
+    "aboutQuote": "\"Le carte non predicono il futuro. Rivelano ciò che già sai.\"",
+    "aboutP1": "Il nostro generatore di tarocchi usa il mazzo completo Rider-Waite-Smith di 78 carte — la tradizione di tarocchi più studiata e affidabile al mondo. Ogni pescata è casuale grazie al generatore crittografico sicuro del browser, quindi nessuna lettura si ripete identica.",
+    "aboutP2": "Che tu sia un curioso che pesca la sua prima carta o un lettore esperto in cerca di una pescata quotidiana, tarotcard.art è pensato per essere bello, gratuito e senza pubblicità invadenti — uno spazio calmo per la riflessione.",
+    "faqKicker": "Domande",
+    "faqTitle": "Domande frequenti"
+  },
+  "card": {
+    "uprightMeaning": "Significato dritto",
+    "reversedMeaning": "Significato rovesciato",
+    "love": "Amore",
+    "career": "Lavoro",
+    "todaysGuidance": "Guida di oggi",
+    "drawCard": "Pesca una carta",
+    "moreFromMajor": "Altri Arcani Maggiori",
+    "moreFromSuit": "Altre di {suit}"
+  },
+  "cardsIndex": {
+    "kicker": "Il mazzo completo",
+    "title": "Le 78 carte dei tarocchi",
+    "intro": "Sfoglia ogni carta del mazzo Rider-Waite-Smith. Clicca qualsiasi carta per il suo significato completo, l'interpretazione rovesciata e note su amore, lavoro e guida quotidiana.",
+    "majorKicker": "22 carte",
+    "majorTitle": "Arcani Maggiori",
+    "majorIntro": "I grandi archetipi — il viaggio dell'anima dal Matto (0) al Mondo (XXI).",
+    "suitKicker": "14 carte"
+  },
+  "about": {
+    "kicker": "Chi siamo",
+    "title": "Uno spazio calmo per la riflessione",
+    "quote": "\"Le carte non predicono il futuro. Rivelano ciò che già sai.\"",
+    "p1": "tarotcard.art è un generatore di tarocchi gratuito e senza pubblicità invadenti, costruito attorno al mazzo Rider-Waite-Smith di 78 carte — la tradizione di tarocchi più studiata e affidabile al mondo, pubblicata per la prima volta nel 1909 e ora di pubblico dominio.",
+    "p2": "Ogni pescata usa il generatore crittografico sicuro del browser (Web Crypto API), quindi il mescolamento è genuinamente imprevedibile. Circa il trenta per cento delle carte appare rovesciato, riproducendo il ritmo di una lettura fisica.",
+    "p3": "Non raccogliamo dati personali, non chiediamo account e non mostriamo pubblicità invadenti. Le carte sono qui per essere pescate, liberamente, da chiunque — principiante o lettore esperto.",
+    "whatYouFind": "Cosa troverai qui",
+    "li1": "✦ Un generatore di carta del giorno nella home page",
+    "li2": "✦ Significati completi, interpretazioni rovesciate e note su amore e lavoro per ogni carta del mazzo",
+    "li3": "✦ Sia Arcani Maggiori (22 carte archetipiche) sia Arcani Minori (56 carte in quattro semi)",
+    "imageryTitle": "Sulle illustrazioni",
+    "imagery": "Il mazzo Rider-Waite-Smith è stato illustrato da Pamela Colman Smith e concepito da A. E. Waite nel 1909. Entrambi i creatori sono deceduti da oltre settant'anni, e il mazzo è entrato nel pubblico dominio mondiale. Le illustrazioni di questo sito sono riprodotte liberamente sotto tale status."
+  },
+  "contacts": {
+    "kicker": "Mettiti in contatto",
+    "title": "Contatti",
+    "intro": "Domande sulle carte, feedback sul sito, proposte di collaborazione — leggiamo ogni messaggio.",
+    "writeToUs": "Scrivici",
+    "responseTime": "Rispondiamo alla maggior parte dei messaggi entro 1-2 giorni lavorativi. Per assistenza più rapida sul generatore, consulta la pagina Chi siamo o le FAQ sulla home page.",
+    "whatYouCanWrite": "Di cosa puoi scrivere",
+    "feedbackTitle": "Feedback",
+    "feedbackBody": "Un significato che ti ha colpito, un refuso, un suggerimento — tutto benvenuto.",
+    "questionsTitle": "Domande",
+    "questionsBody": "Sulle carte, sul mazzo o su come funziona il sito.",
+    "partnershipTitle": "Collaborazione",
+    "partnershipBody": "Collaborazioni, contenuti ospiti, richieste di licenza.",
+    "pressTitle": "Stampa e media",
+    "pressBody": "Richieste di intervista, articoli o press kit."
+  },
+  "faq": {
+    "q1": "Questo generatore di tarocchi è davvero casuale?",
+    "a1": "Sì. Usiamo il generatore crittograficamente sicuro del browser (Web Crypto API) per mescolare il mazzo completo Rider-Waite-Smith a ogni pescata. Ogni carta ha la stessa probabilità di essere pescata — e circa il 30% appare rovesciato, come in una lettura fisica.",
+    "q2": "Quanto spesso dovrei pescare una carta?",
+    "a2": "La maggior parte dei lettori consiglia una pescata della carta del giorno al mattino. Fare la stessa domanda ripetutamente in poco tempo tende a confondere il messaggio — lascia che una carta si depositi prima di pescarne un'altra.",
+    "q3": "Qual è la differenza tra Arcani Maggiori e Minori?",
+    "a3": "Gli Arcani Maggiori (22 carte) rappresentano i grandi temi della vita — amore, destino, trasformazione. Gli Arcani Minori (56 carte in Bastoni, Coppe, Spade e Denari) parlano del quotidiano. Il nostro generatore pesca da tutte e 78.",
+    "q4": "Perché la mia carta a volte appare capovolta?",
+    "a4": "È una carta rovesciata — parte tradizionale della lettura dei tarocchi. Una carta rovesciata porta un significato correlato ma invertito, spesso una versione bloccata o irrisolta del tema dritto.",
+    "q5": "Devo sapere qualcosa di tarocchi per usarlo?",
+    "a5": "Nessuna conoscenza precedente necessaria. Ogni carta ha il suo nome, parole chiave, significato tradizionale, interpretazione su amore e lavoro, e un breve consiglio.",
+    "q6": "tarotcard.art è gratis?",
+    "a6": "Sì — totalmente gratuito, senza account, senza paywall. Il mazzo completo di 78 carte e ogni interpretazione sono aperti alla lettura."
+  },
+  "footer": {
+    "cardOfTheDay": "Carta del giorno",
+    "allCards": "Le 78 carte",
+    "majorArcana": "Arcani Maggiori",
+    "minorArcana": "Arcani Minori",
+    "about": "Chi siamo",
+    "contacts": "Contatti",
+    "tagline": "Pescate con intenzione",
+    "publicDomain": "Le illustrazioni del mazzo Rider-Waite-Smith sono di pubblico dominio."
+  },
+  "suit": {
+    "wands": "Bastoni",
+    "cups": "Coppe",
+    "swords": "Spade",
+    "pentacles": "Denari"
+  },
+  "suitElement": {
+    "wands": "Fuoco — passione, creazione, azione",
+    "cups": "Acqua — emozione, amore, intuizione",
+    "swords": "Aria — pensiero, conflitto, verità",
+    "pentacles": "Terra — corpo, denaro, lavoro"
+  },
+  "notFound": {
+    "kicker": "404",
+    "title": "Questa carta non è in questo mazzo",
+    "intro": "La pagina non è stata trovata. Forse la carta giusta ti aspetta sulla home page.",
+    "back": "Pesca una carta"
+  },
+  "common": {
+    "language": "Lingua"
+  }
+}
