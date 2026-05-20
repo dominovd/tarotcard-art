@@ -9,6 +9,7 @@ export default function Footer() {
         <Link href="/cards?arcana=major" className="hover:text-gold-light transition-colors">Major Arcana</Link>
         <Link href="/cards?suit=cups" className="hover:text-gold-light transition-colors">Minor Arcana</Link>
         <Link href="/about" className="hover:text-gold-light transition-colors">About</Link>
+        <Link href="/contacts" className="hover:text-gold-light transition-colors">Contacts</Link>
       </div>
       <div className="tracking-[0.05em]">© {new Date().getFullYear()} tarotcard.art — Drawn with intention ✦</div>
       <div className="mt-3 text-mist/60 text-[11px]">Rider-Waite-Smith deck imagery is in the public domain.</div>

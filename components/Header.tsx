@@ -11,6 +11,7 @@ export default function Header() {
           <li><Link href="/#generator" className="text-mist hover:text-gold-light text-xs md:text-sm uppercase tracking-[0.15em] transition-colors">Generator</Link></li>
           <li><Link href="/cards" className="text-mist hover:text-gold-light text-xs md:text-sm uppercase tracking-[0.15em] transition-colors">Cards</Link></li>
           <li><Link href="/about" className="text-mist hover:text-gold-light text-xs md:text-sm uppercase tracking-[0.15em] transition-colors">About</Link></li>
+          <li><Link href="/contacts" className="text-mist hover:text-gold-light text-xs md:text-sm uppercase tracking-[0.15em] transition-colors">Contacts</Link></li>
         </ul>
       </nav>
     </header>
