@@ -5,8 +5,11 @@ import pt from "./pt";
 import ru from "./ru";
 import fr from "./fr";
 import it from "./it";
-// TODO: de, pl, tr, ja — translations in progress
+import de from "./de";
+import pl from "./pl";
+import tr from "./tr";
+import ja from "./ja";
 
 export const cardExtras: Partial<Record<Locale, CardL10nExtraMap>> = {
-  es, pt, ru, fr, it,
+  es, pt, ru, fr, it, de, pl, tr, ja,
 };
