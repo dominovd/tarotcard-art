@@ -1,27 +1,13 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { locales, localeNames, localeFlags, defaultLocale, type Locale } from "@/lib/i18n/config";
-
-function stripLocale(pathname: string, current: Locale): string {
-  if (current === defaultLocale) return pathname;
-  const prefix = `/${current}`;
-  if (pathname === prefix) return "/";
-  if (pathname.startsWith(`${prefix}/`)) return pathname.slice(prefix.length);
-  return pathname;
-}
-
-function buildHref(locale: Locale, basePath: string): string {
-  if (locale === defaultLocale) return basePath === "" ? "/" : basePath;
-  const clean = basePath === "/" ? "" : basePath;
-  return `/${locale}${clean}`;
-}
+import { Link, usePathname } from "@/lib/i18n/navigation";
+import { locales, localeNames, localeFlags, type Locale } from "@/lib/i18n/config";
 
 export default function LanguageSwitcher({ current }: { current: Locale }) {
-  const pathname = usePathname() ?? "/";
-  const basePath = stripLocale(pathname, current);
+  // next-intl's usePathname returns the path WITHOUT the locale prefix,
+  // with the dynamic segments already resolved (e.g. "/cards/the-fool").
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
   return (
@@ -47,7 +33,8 @@ export default function LanguageSwitcher({ current }: { current: Locale }) {
           {locales.map((loc) => (
             <Link
               key={loc}
-              href={buildHref(loc, basePath)}
+              href={pathname}
+              locale={loc}
               hrefLang={loc}
               className={`flex items-center gap-3 px-4 py-2.5 text-sm transition-colors ${
                 loc === current ? "text-gold bg-gold/10" : "text-parchment hover:bg-gold/5 hover:text-gold-light"
