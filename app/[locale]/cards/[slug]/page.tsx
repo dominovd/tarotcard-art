@@ -109,12 +109,16 @@ export default async function CardPage({ params: { locale, slug } }: { params: {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 mb-16">
-          <Block title={t("uprightMeaning")} body={card.upright} />
-          <Block title={t("reversedMeaning")} body={card.reversed} />
-          <Block title={t("love")} body={card.love} />
-          <Block title={t("career")} body={card.career} />
-        </div>
+        {/* Optional meaning blocks — render only those that are translated
+            for the current locale. Upright is already shown in the hero
+            above, so we skip it here. */}
+        {(card.reversed || card.love || card.career) && (
+          <div className="grid md:grid-cols-2 gap-6 mb-16">
+            {card.reversed && <Block title={t("reversedMeaning")} body={card.reversed} />}
+            {card.love && <Block title={t("love")} body={card.love} />}
+            {card.career && <Block title={t("career")} body={card.career} />}
+          </div>
+        )}
 
         <div className="text-center py-10 px-6 border border-gold/30 rounded-2xl bg-ink-card/40 mb-16">
           <div className="kicker mb-4">{t("todaysGuidance")}</div>
