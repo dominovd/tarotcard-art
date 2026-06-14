@@ -6,6 +6,17 @@ import FAQ from "@/components/FAQ";
 import { localizedDeck, localizedMajor, localizedMinorBySuit } from "@/lib/deck-localized";
 import { defaultLocale, type Locale } from "@/lib/i18n/config";
 import { allSuits } from "@/lib/deck";
+import { homeRelatedSearchesEn } from "@/lib/seo-en";
+import {
+  ChooseReading,
+  YesOrNoBlock,
+  LoveBlock,
+  ThreeCardBlock,
+  MeaningsBlock,
+  ReversedBlock,
+  QuestionBlock,
+  ExploreMoreTools,
+} from "@/components/seo/HomeEnSections";
 
 function lp(locale: Locale, path: string): string {
   if (locale === defaultLocale) return path;
@@ -20,19 +31,32 @@ export default async function HomePage({ params: { locale } }: { params: { local
 
   const deck = localizedDeck(locale);
   const major = localizedMajor(locale);
+  const isEn = locale === "en";
 
   return (
     <>
+      {/* Hero + generator (all locales) */}
       <section className="container-narrow pt-16 md:pt-24 pb-12 text-center">
         <div className="kicker mb-5">{t("kicker")}</div>
         <h1 className="font-serif text-5xl md:text-6xl text-parchment leading-tight mb-6">
           {t("h1Part1")} <em className="text-gold font-normal">{t("h1Em")}</em>
           <br />{t("h1Part2")}
         </h1>
-        <p className="text-mist max-w-xl mx-auto mb-14 text-lg leading-relaxed">{t("intro")}</p>
+        <p className="text-mist max-w-xl mx-auto mb-4 text-lg leading-relaxed">{t("intro")}</p>
+        {/* EN-only: free/online microcopy under intro (captures "free", "online", "no signup" intents) */}
+        {isEn && (
+          <p className="text-gold/70 text-sm mb-10 max-w-md mx-auto">
+            Free online tarot card generator — no signup, no payment, works instantly in your browser.
+          </p>
+        )}
+        {!isEn && <div className="mb-10" />}
         <CardGenerator deck={deck} />
       </section>
 
+      {/* EN: format selector right after hero — captures 1/2/3 card + yes-no intent */}
+      {isEn && <ChooseReading />}
+
+      {/* How it works (all locales) */}
       <section className="container-narrow py-20">
         <div className="text-center mb-12">
           <div className="kicker mb-3">{t("ritual")}</div>
@@ -50,6 +74,18 @@ export default async function HomePage({ params: { locale } }: { params: { local
         </div>
       </section>
 
+      {/* EN: intent blocks under "How it works" */}
+      {isEn && (
+        <>
+          <YesOrNoBlock />
+          <ThreeCardBlock />
+          <LoveBlock />
+          <MeaningsBlock />
+          <ReversedBlock />
+        </>
+      )}
+
+      {/* Major Arcana preview (all locales) */}
       <section className="container-wide py-20">
         <div className="text-center mb-12">
           <div className="kicker mb-3">{t("majorPreviewKicker")}</div>
@@ -74,6 +110,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
         </div>
       </section>
 
+      {/* Minor Arcana suits (all locales) */}
       <section className="container-narrow py-20">
         <div className="text-center mb-14">
           <div className="kicker mb-3">{t("minorKicker")}</div>
@@ -100,6 +137,10 @@ export default async function HomePage({ params: { locale } }: { params: { local
         </div>
       </section>
 
+      {/* EN: Ask a question — after card sections, before about */}
+      {isEn && <QuestionBlock />}
+
+      {/* About (all locales) */}
       <section className="container-narrow py-20 text-center">
         <div className="kicker mb-3">{t("aboutKicker")}</div>
         <h2 className="section-title mb-10">{t("aboutTitle")}</h2>
@@ -110,6 +151,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
         </div>
       </section>
 
+      {/* FAQ (all locales) */}
       <section className="container-narrow py-20">
         <div className="text-center mb-12">
           <div className="kicker mb-3">{t("faqKicker")}</div>
@@ -117,6 +159,28 @@ export default async function HomePage({ params: { locale } }: { params: { local
         </div>
         <FAQ />
       </section>
+
+      {/* EN: Explore-more-tools internal-link grid + related searches */}
+      {isEn && (
+        <>
+          <ExploreMoreTools />
+          <section className="container-narrow pb-20 pt-4">
+            <div className="border-t border-gold/20 pt-10">
+              <div className="kicker mb-4 text-center">Related searches</div>
+              <div className="flex flex-wrap justify-center gap-2 max-w-3xl mx-auto">
+                {homeRelatedSearchesEn.map((kw) => (
+                  <span
+                    key={kw}
+                    className="text-mist text-xs px-3 py-1.5 rounded-full border border-gold/15 bg-ink-card/30"
+                  >
+                    {kw}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </section>
+        </>
+      )}
     </>
   );
 }
