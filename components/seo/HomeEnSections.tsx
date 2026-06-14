@@ -1,7 +1,7 @@
-// English-only home-page sections built for keyword coverage:
-// 3-card spread, yes/no, love, with-meanings, reversals, question prompts.
-// Each block has its own H2 + anchor ID so it can be deep-linked from
-// "Explore more tools" or external links.
+// English-only home-page sections. Heavy content kept on home for SEO depth
+// (anchors and inline meaning), but CTAs now route to dedicated landing pages
+// so each intent has both inline coverage AND a focused page that can rank
+// for its own keyword cluster.
 
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const READING_FORMATS = [
   {
-    id: "generator",
+    id: "one-card",
     title: "One Card of the Day",
     sub: "Quick daily guidance",
     body: "Pull a single card for a focused answer to today's question. Best for daily check-ins.",
@@ -19,22 +19,22 @@ const READING_FORMATS = [
     id: "three-card",
     title: "Three-Card Spread",
     sub: "Past · Present · Future",
-    body: "Three positions tell the arc of your situation — what brought you here, where you stand, and where you're heading.",
-    href: "#three-card",
+    body: "Three positions tell the arc of your situation — what brought you here, where you stand, where you're heading.",
+    href: "/three-card-tarot-spread-generator",
   },
   {
-    id: "two-card",
-    title: "Two-Card Reading",
-    sub: "Situation · Advice",
-    body: "Two cards: one names what's happening, the other points to your next move. Compact and decisive.",
-    href: "#three-card",
+    id: "love",
+    title: "Love Tarot",
+    sub: "Romance & relationships",
+    body: "Pull a card with the love and partnership meaning surfaced first.",
+    href: "/love-tarot-card-generator",
   },
   {
     id: "yes-or-no",
     title: "Yes or No Tarot",
     sub: "Single-card binary answer",
     body: "For yes/no questions: draw one card and read its orientation. Upright leans yes, reversed leans no.",
-    href: "#yes-or-no",
+    href: "/yes-or-no-tarot-card-generator",
   },
 ];
 
@@ -78,10 +78,10 @@ export function YesOrNoBlock() {
       </div>
       <div className="max-w-2xl mx-auto text-mist leading-relaxed space-y-4 mb-8">
         <p>
-          Yes-or-no tarot is the simplest way to use the deck. Hold a binary question in mind,
-          draw a single card, and read its orientation: upright cards lean <strong className="text-gold-light font-medium">yes</strong>,
-          reversed cards lean <strong className="text-gold-light font-medium">no</strong>, and
-          ambiguous cards say <strong className="text-gold-light font-medium">maybe — clarify the question.</strong>
+          Yes-or-no tarot is the simplest way to use the deck. Hold a binary question, draw a single
+          card, and read its orientation: upright cards lean <strong className="text-gold-light font-medium">yes</strong>,
+          reversed cards lean <strong className="text-gold-light font-medium">no</strong>, and ambiguous
+          cards say <strong className="text-gold-light font-medium">maybe — clarify the question.</strong>
         </p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 max-w-3xl mx-auto mb-10">
@@ -107,40 +107,13 @@ export function YesOrNoBlock() {
         </div>
       </div>
       <div className="text-center">
-        <Link href="#generator" className="gold-btn">Draw a Yes-or-No card</Link>
+        <Link href="/yes-or-no-tarot-card-generator" className="gold-btn">Open Yes-or-No Tool →</Link>
       </div>
     </section>
   );
 }
 
-// ============ 3. Love Tarot ============
-
-export function LoveBlock() {
-  return (
-    <section id="love-tarot" className="container-narrow py-16">
-      <div className="text-center mb-8">
-        <div className="kicker mb-3">Relationships &amp; romance</div>
-        <h2 className="section-title">Love Tarot Card Generator</h2>
-      </div>
-      <div className="max-w-2xl mx-auto text-mist leading-relaxed space-y-4 mb-10 text-center">
-        <p>
-          Pulling a card for love is one of the oldest uses of tarot. Each card on tarotcard.art
-          comes with a dedicated love interpretation — covering both single and partnered contexts,
-          plus the reversed reading when it appears.
-        </p>
-        <p className="font-serif text-parchment text-lg italic">
-          Try asking: "What do I need to know about this relationship?" or "What's the next chapter
-          for my love life?" — then draw.
-        </p>
-      </div>
-      <div className="text-center">
-        <Link href="#generator" className="gold-btn">Draw a card for love</Link>
-      </div>
-    </section>
-  );
-}
-
-// ============ 4. Three-Card Spread ============
+// ============ 3. Three-Card Spread ============
 
 export function ThreeCardBlock() {
   return (
@@ -151,8 +124,8 @@ export function ThreeCardBlock() {
       </div>
       <div className="max-w-2xl mx-auto text-mist leading-relaxed mb-10 text-center">
         <p>
-          A three-card spread tells a story through positions. Draw three cards in sequence and
-          read them as a narrative arc:
+          A three-card spread tells a story through positions. Draw three cards in sequence and read
+          them as a narrative arc:
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto mb-10">
@@ -172,12 +145,35 @@ export function ThreeCardBlock() {
           <p className="text-mist text-sm leading-relaxed">Where this is heading if you stay the course.</p>
         </div>
       </div>
-      <p className="text-center text-mist text-sm max-w-xl mx-auto mb-8">
-        Draw three cards from the generator above in sequence and read them left-to-right.
-        A full standalone 3-card spread tool is coming soon.
-      </p>
       <div className="text-center">
-        <Link href="#generator" className="gold-btn">Start a 3-card draw</Link>
+        <Link href="/three-card-tarot-spread-generator" className="gold-btn">Open 3-Card Tool →</Link>
+      </div>
+    </section>
+  );
+}
+
+// ============ 4. Love Tarot ============
+
+export function LoveBlock() {
+  return (
+    <section id="love-tarot" className="container-narrow py-16">
+      <div className="text-center mb-8">
+        <div className="kicker mb-3">Relationships &amp; romance</div>
+        <h2 className="section-title">Love Tarot Card Generator</h2>
+      </div>
+      <div className="max-w-2xl mx-auto text-mist leading-relaxed space-y-4 mb-10 text-center">
+        <p>
+          Pulling a card for love is one of the oldest uses of tarot. Each card on tarotcard.art comes
+          with a dedicated love interpretation — covering both single and partnered contexts, plus the
+          reversed reading when it appears.
+        </p>
+        <p className="font-serif text-parchment text-lg italic">
+          Try asking: "What do I need to know about this relationship?" or "What's the next chapter
+          for my love life?"
+        </p>
+      </div>
+      <div className="text-center">
+        <Link href="/love-tarot-card-generator" className="gold-btn">Open Love Tool →</Link>
       </div>
     </section>
   );
@@ -188,7 +184,7 @@ export function ThreeCardBlock() {
 const MEANING_FIELDS = [
   { label: "Card name & arcana", body: "Position in the deck (Major Arcana 0–21 or one of the four Minor suits)." },
   { label: "Upright meaning", body: "Traditional Rider-Waite-Smith interpretation when the card is drawn upright." },
-  { label: "Reversed meaning", body: "What changes when the card appears flipped — typically the blocked or internal version." },
+  { label: "Reversed meaning", body: "What changes when the card appears flipped — the blocked or internal version." },
   { label: "Love interpretation", body: "How the card reads in relationship and romance contexts, single or partnered." },
   { label: "Career interpretation", body: "What it suggests for work, projects, and professional direction." },
   { label: "Daily guidance", body: "A short, actionable advice line you can take into the day." },
@@ -205,13 +201,16 @@ export function MeaningsBlock() {
           and a name. Here's what's included:
         </p>
       </div>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto mb-10">
         {MEANING_FIELDS.map((f) => (
           <div key={f.label} className="p-5 rounded-xl border border-gold/20 bg-ink-card/30">
             <div className="kicker mb-2">✦ {f.label}</div>
             <p className="text-mist text-sm leading-relaxed">{f.body}</p>
           </div>
         ))}
+      </div>
+      <div className="text-center">
+        <Link href="/tarot-card-meanings" className="gold-btn">Browse All Meanings →</Link>
       </div>
     </section>
   );
@@ -233,9 +232,9 @@ export function ReversedBlock() {
           the same rhythm as a hand-shuffled physical reading.
         </p>
         <p>
-          A reversed card carries a related but inverted meaning — often the blocked, internal,
-          or "not yet" version of the upright theme. Every card page on this site includes both
-          the upright and reversed interpretation, so you always get the full picture.
+          A reversed card carries a related but inverted meaning — often the blocked, internal, or
+          "not yet" version of the upright theme. Every card page on this site includes both
+          interpretations.
         </p>
       </div>
       <div className="text-center">
@@ -263,8 +262,8 @@ export function QuestionBlock() {
         <div className="kicker mb-3">Question prompts</div>
         <h2 className="section-title">Ask a Tarot Question</h2>
         <p className="text-mist max-w-xl mx-auto mt-5 leading-relaxed">
-          Tarot works best when you bring it a clear question. If you're not sure what to ask,
-          pick one of these and hold it in mind as you draw.
+          Tarot works best when you bring it a clear question. If you're not sure what to ask, pick
+          one of these and hold it in mind as you draw.
         </p>
       </div>
       <div className="grid sm:grid-cols-2 gap-3 max-w-2xl mx-auto mb-10">
@@ -284,14 +283,14 @@ export function QuestionBlock() {
 // ============ 8. Explore More Tarot Tools (internal links) ============
 
 const MORE_TOOLS = [
-  { name: "Yes or No Tarot", href: "#yes-or-no" },
-  { name: "Three-Card Spread", href: "#three-card" },
-  { name: "Love Tarot", href: "#love-tarot" },
-  { name: "Tarot with Reversals", href: "#reversed" },
-  { name: "Tarot Question Generator", href: "#ask-a-question" },
-  { name: "Card of the Day", href: "#generator" },
-  { name: "Tarot with Meanings", href: "#with-meanings" },
+  { name: "Yes or No Tarot", href: "/yes-or-no-tarot-card-generator" },
+  { name: "Three-Card Spread", href: "/three-card-tarot-spread-generator" },
+  { name: "Love Tarot", href: "/love-tarot-card-generator" },
+  { name: "Birth Tarot Card", href: "/birth-tarot-card-generator" },
+  { name: "Tarot Card Meanings", href: "/tarot-card-meanings" },
   { name: "All 78 Cards", href: "/cards" },
+  { name: "Card of the Day", href: "#generator" },
+  { name: "Ask a Question", href: "#ask-a-question" },
 ];
 
 export function ExploreMoreTools() {

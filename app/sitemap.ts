@@ -5,7 +5,6 @@ import { locales, hreflangCode, localizedUrl, defaultLocale, SITE_URL } from "@/
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
-  // For each route, generate one sitemap entry per locale with alternate hreflang links
   const buildEntry = (path: string, changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"], priority: number) => {
     const alternates: Record<string, string> = {};
     for (const loc of locales) {
@@ -24,6 +23,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPaths: { path: string; cf: MetadataRoute.Sitemap[number]["changeFrequency"]; pri: number }[] = [
     { path: "/", cf: "daily", pri: 1.0 },
     { path: "/cards", cf: "monthly", pri: 0.9 },
+    // Dedicated EN landing pages (also available in other locales as fallback)
+    { path: "/yes-or-no-tarot-card-generator", cf: "monthly", pri: 0.9 },
+    { path: "/three-card-tarot-spread-generator", cf: "monthly", pri: 0.9 },
+    { path: "/love-tarot-card-generator", cf: "monthly", pri: 0.9 },
+    { path: "/birth-tarot-card-generator", cf: "monthly", pri: 0.85 },
+    { path: "/tarot-card-meanings", cf: "monthly", pri: 0.9 },
     { path: "/about", cf: "yearly", pri: 0.5 },
     { path: "/contacts", cf: "yearly", pri: 0.4 },
   ];

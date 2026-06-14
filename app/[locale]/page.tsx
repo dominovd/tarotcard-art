@@ -10,8 +10,8 @@ import { homeRelatedSearchesEn } from "@/lib/seo-en";
 import {
   ChooseReading,
   YesOrNoBlock,
-  LoveBlock,
   ThreeCardBlock,
+  LoveBlock,
   MeaningsBlock,
   ReversedBlock,
   QuestionBlock,
@@ -35,7 +35,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
 
   return (
     <>
-      {/* Hero + generator (all locales) */}
+      {/* Hero + generator */}
       <section className="container-narrow pt-16 md:pt-24 pb-12 text-center">
         <div className="kicker mb-5">{t("kicker")}</div>
         <h1 className="font-serif text-5xl md:text-6xl text-parchment leading-tight mb-6">
@@ -43,7 +43,6 @@ export default async function HomePage({ params: { locale } }: { params: { local
           <br />{t("h1Part2")}
         </h1>
         <p className="text-mist max-w-xl mx-auto mb-4 text-lg leading-relaxed">{t("intro")}</p>
-        {/* EN-only: free/online microcopy under intro (captures "free", "online", "no signup" intents) */}
         {isEn && (
           <p className="text-gold/70 text-sm mb-10 max-w-md mx-auto">
             Free online tarot card generator — no signup, no payment, works instantly in your browser.
@@ -53,10 +52,10 @@ export default async function HomePage({ params: { locale } }: { params: { local
         <CardGenerator deck={deck} />
       </section>
 
-      {/* EN: format selector right after hero — captures 1/2/3 card + yes-no intent */}
+      {/* EN: format selector — CTAs route to dedicated landing pages */}
       {isEn && <ChooseReading />}
 
-      {/* How it works (all locales) */}
+      {/* How it works */}
       <section className="container-narrow py-20">
         <div className="text-center mb-12">
           <div className="kicker mb-3">{t("ritual")}</div>
@@ -74,7 +73,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
         </div>
       </section>
 
-      {/* EN: intent blocks under "How it works" */}
+      {/* EN: intent-specific blocks (CTAs now route to dedicated landing pages) */}
       {isEn && (
         <>
           <YesOrNoBlock />
@@ -85,7 +84,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
         </>
       )}
 
-      {/* Major Arcana preview (all locales) */}
+      {/* Major Arcana preview */}
       <section className="container-wide py-20">
         <div className="text-center mb-12">
           <div className="kicker mb-3">{t("majorPreviewKicker")}</div>
@@ -110,7 +109,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
         </div>
       </section>
 
-      {/* Minor Arcana suits (all locales) */}
+      {/* Minor Arcana */}
       <section className="container-narrow py-20">
         <div className="text-center mb-14">
           <div className="kicker mb-3">{t("minorKicker")}</div>
@@ -137,10 +136,10 @@ export default async function HomePage({ params: { locale } }: { params: { local
         </div>
       </section>
 
-      {/* EN: Ask a question — after card sections, before about */}
+      {/* EN: Question block */}
       {isEn && <QuestionBlock />}
 
-      {/* About (all locales) */}
+      {/* About */}
       <section className="container-narrow py-20 text-center">
         <div className="kicker mb-3">{t("aboutKicker")}</div>
         <h2 className="section-title mb-10">{t("aboutTitle")}</h2>
@@ -151,7 +150,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
         </div>
       </section>
 
-      {/* FAQ (all locales) */}
+      {/* FAQ */}
       <section className="container-narrow py-20">
         <div className="text-center mb-12">
           <div className="kicker mb-3">{t("faqKicker")}</div>
