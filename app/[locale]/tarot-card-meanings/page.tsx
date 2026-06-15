@@ -4,7 +4,8 @@ import Link from "next/link";
 import { unstable_setRequestLocale } from "next-intl/server";
 import { localizedMajor, localizedMinorBySuit } from "@/lib/deck-localized";
 import { allSuits, suitLabel } from "@/lib/deck";
-import { alternateLanguages, localizedUrl, type Locale } from "@/lib/i18n/config";
+import type { Locale } from "@/lib/i18n/config";
+import { indexableAlternateLanguages, indexableCanonical, robotsForIndexableContent } from "@/lib/seo-indexing";
 import { LandingBreadcrumbs, LandingFAQ, OtherTools, RelatedSearches } from "@/components/seo/LandingShell";
 
 const PATH = "/tarot-card-meanings";
@@ -14,7 +15,8 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   return {
     title: `Tarot Card Meanings — All 78 Rider-Waite Cards Explained (${YEAR})`,
     description: "Complete tarot card meanings list. All 78 Rider-Waite-Smith cards — 22 Major Arcana plus Wands, Cups, Swords and Pentacles — with upright meaning, keywords and direct links to full interpretations.",
-    alternates: { canonical: localizedUrl(locale, PATH), languages: alternateLanguages(PATH) },
+    alternates: { canonical: indexableCanonical(locale, PATH), languages: indexableAlternateLanguages(PATH) },
+    robots: robotsForIndexableContent(locale),
   };
 }
 

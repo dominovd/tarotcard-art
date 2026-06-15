@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { unstable_setRequestLocale } from "next-intl/server";
 import BirthCardCalculator from "@/components/BirthCardCalculator";
 import { localizedMajor } from "@/lib/deck-localized";
-import { alternateLanguages, localizedUrl, type Locale } from "@/lib/i18n/config";
+import type { Locale } from "@/lib/i18n/config";
+import { indexableAlternateLanguages, indexableCanonical, robotsForIndexableContent } from "@/lib/seo-indexing";
 import { LandingBreadcrumbs, LandingFAQ, OtherTools, RelatedSearches } from "@/components/seo/LandingShell";
 
 const PATH = "/birth-tarot-card-generator";
@@ -12,7 +13,8 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   return {
     title: `Birth Tarot Card Generator — Find Your Numerology Card (${YEAR})`,
     description: "Free birth tarot card calculator. Enter your birthday and discover your personal Major Arcana card based on tarot numerology. Full meaning, life lesson and advice included.",
-    alternates: { canonical: localizedUrl(locale, PATH), languages: alternateLanguages(PATH) },
+    alternates: { canonical: indexableCanonical(locale, PATH), languages: indexableAlternateLanguages(PATH) },
+    robots: robotsForIndexableContent(locale),
   };
 }
 

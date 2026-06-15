@@ -3,7 +3,8 @@ import Link from "next/link";
 import { unstable_setRequestLocale } from "next-intl/server";
 import CardGenerator from "@/components/CardGenerator";
 import { localizedDeck } from "@/lib/deck-localized";
-import { alternateLanguages, localizedUrl, type Locale } from "@/lib/i18n/config";
+import type { Locale } from "@/lib/i18n/config";
+import { indexableAlternateLanguages, indexableCanonical, robotsForIndexableContent } from "@/lib/seo-indexing";
 import { LandingBreadcrumbs, LandingFAQ, OtherTools, RelatedSearches } from "@/components/seo/LandingShell";
 
 const PATH = "/love-tarot-card-generator";
@@ -13,7 +14,8 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   return {
     title: `Love Tarot Card Generator — Free Relationship Reading (${YEAR})`,
     description: "Free love tarot card generator. Draw a card and see its love and relationship meaning — for single, partnered, or 'what does this person feel' questions. Full upright + reversed.",
-    alternates: { canonical: localizedUrl(locale, PATH), languages: alternateLanguages(PATH) },
+    alternates: { canonical: indexableCanonical(locale, PATH), languages: indexableAlternateLanguages(PATH) },
+    robots: robotsForIndexableContent(locale),
   };
 }
 

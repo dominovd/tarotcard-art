@@ -3,7 +3,8 @@ import Link from "next/link";
 import { unstable_setRequestLocale } from "next-intl/server";
 import CardGenerator from "@/components/CardGenerator";
 import { localizedDeck } from "@/lib/deck-localized";
-import { alternateLanguages, localizedUrl, type Locale } from "@/lib/i18n/config";
+import type { Locale } from "@/lib/i18n/config";
+import { indexableAlternateLanguages, indexableCanonical, robotsForIndexableContent } from "@/lib/seo-indexing";
 import { LandingBreadcrumbs, LandingFAQ, OtherTools, RelatedSearches } from "@/components/seo/LandingShell";
 
 const PATH = "/yes-or-no-tarot-card-generator";
@@ -13,7 +14,8 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   return {
     title: `Yes or No Tarot Card Generator — Free Online Reading (${YEAR})`,
     description: "Free yes-or-no tarot card generator. Draw a single card and get a binary answer based on upright/reversed orientation. No signup. Full meaning included.",
-    alternates: { canonical: localizedUrl(locale, PATH), languages: alternateLanguages(PATH) },
+    alternates: { canonical: indexableCanonical(locale, PATH), languages: indexableAlternateLanguages(PATH) },
+    robots: robotsForIndexableContent(locale),
   };
 }
 

@@ -5,7 +5,8 @@ import { notFound } from "next/navigation";
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import { deck } from "@/lib/deck";
 import { getLocalizedCard, localizedMajor, localizedMinorBySuit } from "@/lib/deck-localized";
-import { alternateLanguages, localizedUrl, defaultLocale, locales, hreflangCode, SITE_URL, type Locale } from "@/lib/i18n/config";
+import { localizedUrl, defaultLocale, locales, hreflangCode, SITE_URL, type Locale } from "@/lib/i18n/config";
+import { indexableAlternateLanguages, indexableCanonical, robotsForIndexableContent } from "@/lib/seo-indexing";
 import {
   cardTitleEn,
   cardDescriptionEn,
@@ -41,9 +42,10 @@ export async function generateMetadata({ params: { locale, slug } }: { params: {
     title,
     description,
     alternates: {
-      canonical: localizedUrl(locale, `/cards/${slug}`),
-      languages: alternateLanguages(`/cards/${slug}`),
+      canonical: indexableCanonical(locale, `/cards/${slug}`),
+      languages: indexableAlternateLanguages(`/cards/${slug}`),
     },
+    robots: robotsForIndexableContent(locale),
     openGraph: {
       title,
       description,
