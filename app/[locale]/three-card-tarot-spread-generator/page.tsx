@@ -3,7 +3,7 @@ import Link from "next/link";
 import { unstable_setRequestLocale } from "next-intl/server";
 import ThreeCardGenerator from "@/components/ThreeCardGenerator";
 import { localizedDeck } from "@/lib/deck-localized";
-import type { Locale } from "@/lib/i18n/config";
+import { SITE_URL, type Locale } from "@/lib/i18n/config";
 import { indexableAlternateLanguages, indexableCanonical, robotsForIndexableContent } from "@/lib/seo-indexing";
 import { LandingBreadcrumbs, LandingFAQ, OtherTools, RelatedSearches } from "@/components/seo/LandingShell";
 
@@ -12,6 +12,7 @@ const YEAR = new Date().getFullYear();
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: Locale } }): Promise<Metadata> {
   return {
+    metadataBase: new URL(SITE_URL),
     title: `3-Card Tarot Spread Generator — Past, Present, Future (${YEAR})`,
     description: "Free 3-card tarot spread generator. Draw three Rider-Waite cards for Past, Present and Future — full upright & reversed meanings included, no signup.",
     alternates: { canonical: indexableCanonical(locale, PATH), languages: indexableAlternateLanguages(PATH) },

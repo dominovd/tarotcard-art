@@ -1,6 +1,5 @@
 import { ImageResponse } from "next/og";
 
-export const runtime = "edge";
 export const alt = "tarotcard.art — Free tarot card generator";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
@@ -30,7 +29,7 @@ export default async function OG() {
             marginBottom: 32,
           }}
         >
-          ✦ tarotcard.art ✦
+          tarotcard.art
         </div>
         <div
           style={{
@@ -55,7 +54,7 @@ export default async function OG() {
             maxWidth: 800,
           }}
         >
-          Free tarot card generator — full 78-card Rider-Waite deck
+          Free tarot card generator - full 78-card Rider-Waite deck
         </div>
       </div>
     ),

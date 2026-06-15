@@ -3,7 +3,7 @@ import Link from "next/link";
 import { unstable_setRequestLocale } from "next-intl/server";
 import CardGenerator from "@/components/CardGenerator";
 import { localizedDeck } from "@/lib/deck-localized";
-import type { Locale } from "@/lib/i18n/config";
+import { SITE_URL, type Locale } from "@/lib/i18n/config";
 import { indexableAlternateLanguages, indexableCanonical, robotsForIndexableContent } from "@/lib/seo-indexing";
 import { LandingBreadcrumbs, LandingFAQ, OtherTools, RelatedSearches } from "@/components/seo/LandingShell";
 
@@ -12,6 +12,7 @@ const YEAR = new Date().getFullYear();
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: Locale } }): Promise<Metadata> {
   return {
+    metadataBase: new URL(SITE_URL),
     title: `Love Tarot Card Generator — Free Relationship Reading (${YEAR})`,
     description: "Free love tarot card generator. Draw a card and see its love and relationship meaning — for single, partnered, or 'what does this person feel' questions. Full upright + reversed.",
     alternates: { canonical: indexableCanonical(locale, PATH), languages: indexableAlternateLanguages(PATH) },

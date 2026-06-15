@@ -39,6 +39,7 @@ export async function generateMetadata({ params: { locale, slug } }: { params: {
     ? cardDescriptionEn(card)
     : `${card.name} — ${card.upright.slice(0, 140)}…`;
   return {
+    metadataBase: new URL(SITE_URL),
     title,
     description,
     alternates: {

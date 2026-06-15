@@ -4,7 +4,7 @@ import Link from "next/link";
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import { localizedMajor, localizedMinorBySuit } from "@/lib/deck-localized";
 import { allSuits } from "@/lib/deck";
-import { alternateLanguages, localizedUrl, defaultLocale, type Locale } from "@/lib/i18n/config";
+import { alternateLanguages, localizedUrl, defaultLocale, SITE_URL, type Locale } from "@/lib/i18n/config";
 import { cardsHubTitleEn, cardsHubDescriptionEn } from "@/lib/seo-en";
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: Locale } }): Promise<Metadata> {
@@ -12,6 +12,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   const title = locale === "en" ? cardsHubTitleEn() : t("title");
   const description = locale === "en" ? cardsHubDescriptionEn() : t("description");
   return {
+    metadataBase: new URL(SITE_URL),
     title,
     description,
     alternates: { canonical: localizedUrl(locale, "/cards"), languages: alternateLanguages("/cards") },

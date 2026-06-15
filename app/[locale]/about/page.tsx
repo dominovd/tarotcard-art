@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
-import { alternateLanguages, localizedUrl, defaultLocale, type Locale } from "@/lib/i18n/config";
+import { alternateLanguages, localizedUrl, defaultLocale, SITE_URL, type Locale } from "@/lib/i18n/config";
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: Locale } }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "meta.about" });
   return {
+    metadataBase: new URL(SITE_URL),
     title: t("title"),
     description: t("description"),
     alternates: { canonical: localizedUrl(locale, "/about"), languages: alternateLanguages("/about") },

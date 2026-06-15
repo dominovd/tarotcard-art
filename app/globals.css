@@ -16,7 +16,7 @@
     background-attachment: fixed;
   }
   h1, h2, h3, h4 {
-    font-family: "Cormorant Garamond", Georgia, serif;
+    font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
     font-weight: 500;
     letter-spacing: 0.02em;
   }

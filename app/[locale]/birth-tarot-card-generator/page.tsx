@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { unstable_setRequestLocale } from "next-intl/server";
 import BirthCardCalculator from "@/components/BirthCardCalculator";
 import { localizedMajor } from "@/lib/deck-localized";
-import type { Locale } from "@/lib/i18n/config";
+import { SITE_URL, type Locale } from "@/lib/i18n/config";
 import { indexableAlternateLanguages, indexableCanonical, robotsForIndexableContent } from "@/lib/seo-indexing";
 import { LandingBreadcrumbs, LandingFAQ, OtherTools, RelatedSearches } from "@/components/seo/LandingShell";
 
@@ -11,6 +11,7 @@ const YEAR = new Date().getFullYear();
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: Locale } }): Promise<Metadata> {
   return {
+    metadataBase: new URL(SITE_URL),
     title: `Birth Tarot Card Generator — Find Your Numerology Card (${YEAR})`,
     description: "Free birth tarot card calculator. Enter your birthday and discover your personal Major Arcana card based on tarot numerology. Full meaning, life lesson and advice included.",
     alternates: { canonical: indexableCanonical(locale, PATH), languages: indexableAlternateLanguages(PATH) },
