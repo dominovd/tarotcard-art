@@ -7,6 +7,7 @@ import { deck } from "@/lib/deck";
 import { getLocalizedCard, localizedMajor, localizedMinorBySuit } from "@/lib/deck-localized";
 import { localizedUrl, defaultLocale, locales, hreflangCode, SITE_URL, type Locale } from "@/lib/i18n/config";
 import { indexableAlternateLanguages, indexableCanonical, robotsForIndexableContent } from "@/lib/seo-indexing";
+import { getCardDeepDiveEn } from "@/lib/card-deep-dive-en";
 import {
   cardTitleEn,
   cardDescriptionEn,
@@ -101,6 +102,7 @@ export default async function CardPage({ params: { locale, slug } }: { params: {
   const faqItems = isEn ? cardFaqEn(card) : [];
   const relatedKeywords = isEn ? cardRelatedKeywordsEn(card) : [];
   const directAnswer = isEn ? directAnswerEn(card) : null;
+  const deepDive = isEn ? getCardDeepDiveEn(card.slug) : undefined;
 
   const faqJsonLd = isEn && faqItems.length > 0 ? {
     "@context": "https://schema.org",
@@ -194,6 +196,22 @@ export default async function CardPage({ params: { locale, slug } }: { params: {
           <p className="font-serif text-2xl md:text-3xl text-gold italic leading-snug max-w-2xl mx-auto">✦ {card.advice}</p>
         </div>
 
+        {deepDive && (
+          <section className="mb-16">
+            <div className="text-center mb-8">
+              <div className="kicker mb-3">Deeper meaning</div>
+              <h2 className="font-serif text-3xl md:text-4xl text-parchment">
+                How to interpret {card.name}
+              </h2>
+            </div>
+            <div className="grid gap-5">
+              <InsightBlock title="Symbolism" body={deepDive.symbolism} />
+              <InsightBlock title="In a reading" body={deepDive.reading} />
+              <InsightBlock title="Reversed nuance" body={deepDive.reversed} />
+            </div>
+          </section>
+        )}
+
         {/* FAQ section — EN only, FAQPage schema attached above */}
         {faqItems.length > 0 && (
           <section className="mb-16">
@@ -263,6 +281,15 @@ function Block({ title, body }: { title: string; body: string }) {
     <div className="p-6 rounded-xl border border-gold/20 bg-ink-card/30">
       <div className="kicker mb-3">{title}</div>
       <p className="text-parchment leading-relaxed">{body}</p>
+    </div>
+  );
+}
+
+function InsightBlock({ title, body }: { title: string; body: string }) {
+  return (
+    <div className="border-l-2 border-gold/30 pl-5">
+      <h3 className="font-serif text-2xl text-parchment mb-2">{title}</h3>
+      <p className="text-mist leading-relaxed">{body}</p>
     </div>
   );
 }
