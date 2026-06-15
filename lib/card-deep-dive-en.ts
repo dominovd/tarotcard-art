@@ -115,6 +115,76 @@ export const cardDeepDiveEn: Record<string, CardDeepDiveEn> = {
     reading: "In a reading, The World points to fulfillment, graduation, travel, integration, achievement, and wholeness. It asks you to recognize what has been completed instead of rushing past the threshold without honoring the work.",
     reversed: "Reversed, The World can indicate unfinished business, fear of completion, or a final step that keeps being postponed. Closure may require one last act of naming, gratitude, or release.",
   },
+  "ace-of-wands": {
+    symbolism: "The Ace of Wands shows a hand emerging from a cloud, offering a living branch. The leaves and distant landscape make the wand feel freshly charged: raw creative fire arriving before it has become a plan, project, relationship, or visible result.",
+    reading: "In a reading, the Ace of Wands marks the first spark of passion, courage, desire, or creative momentum. It is not the whole journey; it is the ignition point that asks to be used while the energy is still bright.",
+    reversed: "Reversed, the Ace of Wands can show delay, hesitation, burnout, blocked desire, or an idea that excites you but has not been given a practical opening. Protect the spark without mistaking it for a finished fire.",
+  },
+  "two-of-wands": {
+    symbolism: "The Two of Wands shows a figure holding a small globe while looking beyond the walls. One wand is fixed behind him, the other held in hand: part of life is already established, but the mind is reaching toward a wider map.",
+    reading: "In a reading, this card asks you to think beyond the first impulse. It favors strategy, travel, expansion, entrepreneurship, and decisions where confidence must be paired with a real route forward.",
+    reversed: "Reversed, the Two of Wands can point to fear of the unknown, overplanning, playing too small, or refusing to leave a familiar position. A plan only becomes power when it changes your next move.",
+  },
+  "three-of-wands": {
+    symbolism: "The Three of Wands shows a figure watching ships move across the water. The wands are planted, suggesting that an earlier decision has already been made. Now the work is patience, timing, and watching for what returns.",
+    reading: "In a reading, the Three of Wands supports expansion, collaboration, long-range vision, and opportunities beyond the immediate environment. It often appears when results are developing, even if they have not yet reached shore.",
+    reversed: "Reversed, this card may show delayed plans, narrow thinking, weak follow-through, or frustration because growth is slower than expected. Recheck the horizon and the systems carrying your effort outward.",
+  },
+  "four-of-wands": {
+    symbolism: "The Four of Wands shows a garlanded structure in front of figures celebrating. The card joins fire with stability: a temporary gateway becomes a place of welcome, ceremony, and shared recognition.",
+    reading: "In a reading, the Four of Wands marks milestones, homecoming, parties, public commitment, creative completion, or the pleasure of belonging somewhere. It asks you to pause long enough to let success become a memory.",
+    reversed: "Reversed, the Four of Wands can show delayed celebration, tension at home, instability around a milestone, or feeling outside the circle. Look at whether the foundation supports joy or only the appearance of it.",
+  },
+  "five-of-wands": {
+    symbolism: "The Five of Wands shows several figures raising staffs in a chaotic clash. No one appears deeply wounded, but no one is fully coordinated either. The image is friction before form: raw energy looking for rules, leadership, or a shared aim.",
+    reading: "In a reading, this card points to competition, debate, creative tension, crossed agendas, or a situation where everyone is moving at once. It can sharpen skill if the conflict has purpose and boundaries.",
+    reversed: "Reversed, the Five of Wands may show conflict avoidance, passive aggression, inner tension, or relief after a noisy phase. If the fight keeps repeating, define the real issue instead of reacting to the noise.",
+  },
+  "six-of-wands": {
+    symbolism: "The Six of Wands shows a rider crowned with a laurel wreath, moving through public attention. The wand is decorated, and the crowd recognizes the achievement. This is victory seen by others, not only felt privately.",
+    reading: "In a reading, the Six of Wands brings recognition, promotion, applause, a successful launch, or confidence after effort. It asks you to receive praise without shrinking and to use visibility responsibly.",
+    reversed: "Reversed, this card can indicate private victory, delayed recognition, ego trouble, comparison, or fear of being seen. Ask whether you are avoiding the spotlight or depending on it too much.",
+  },
+  "seven-of-wands": {
+    symbolism: "The Seven of Wands shows a figure standing above challengers with a staff raised in defense. His uneven shoes suggest the moment is imperfect and hurried, yet the higher ground matters: conviction is being tested under pressure.",
+    reading: "In a reading, this card asks you to defend your position, protect your work, and stay clear about what is worth fighting for. It favors courage, boundaries, advocacy, and holding the line when criticism grows loud.",
+    reversed: "Reversed, the Seven of Wands may show exhaustion, defensiveness, surrendering too early, or fighting battles that no longer matter. Choose the hill before spending your strength on it.",
+  },
+  "eight-of-wands": {
+    symbolism: "The Eight of Wands shows staffs flying through open air with no human figure in sight. The energy has already been released. The card is movement after launch: messages, momentum, travel, and events moving faster than reflection.",
+    reading: "In a reading, the Eight of Wands signals speed, news, progress, sudden alignment, or a window that opens quickly. It asks for responsiveness; too much delay can miss the current carrying things forward.",
+    reversed: "Reversed, this card can point to delays, mixed messages, scattered motion, or momentum that arrives before preparation. Slow down only enough to aim; do not confuse temporary blockage with permanent refusal.",
+  },
+  "nine-of-wands": {
+    symbolism: "The Nine of Wands shows a guarded figure with a bandaged head, standing before a row of staffs. He has survived much, but the posture is still watchful. This is endurance with memory, strength shaped by previous wounds.",
+    reading: "In a reading, the Nine of Wands asks for resilience, boundaries, and one more measured effort. It often appears near the end of a hard stretch, when quitting would waste the wisdom earned by continuing.",
+    reversed: "Reversed, the Nine of Wands can show burnout, paranoia, refusal of help, or a defense system that no longer knows when danger has passed. Rest is part of endurance, not proof against it.",
+  },
+  "ten-of-wands": {
+    symbolism: "The Ten of Wands shows a figure bent under a heavy bundle, walking toward a town. The destination is visible, but the load blocks his view. Achievement has become burden because everything is being carried at once.",
+    reading: "In a reading, the Ten of Wands points to responsibility, overwork, obligation, and the final push before completion. It asks what must be finished, delegated, simplified, or put down before the work crushes the worker.",
+    reversed: "Reversed, this card can show release, refusal to carry more, collapse from overload, or difficulty letting go of control. Relief comes when responsibility is separated from martyrdom.",
+  },
+  "page-of-wands": {
+    symbolism: "The Page of Wands stands in a bare landscape, studying a staff with curiosity. The desert background suggests potential rather than completion. This page is the first personality of fire: eager, exploratory, unpolished, and alive to possibility.",
+    reading: "In a reading, the Page of Wands brings messages, inspiration, a new interest, a creative invitation, or the courage to try before mastery arrives. It asks you to learn through contact with the world, not only through imagining.",
+    reversed: "Reversed, this card may show scattered enthusiasm, immaturity, fear of looking foolish, or starting many things without staying long enough to learn. Give curiosity a container.",
+  },
+  "knight-of-wands": {
+    symbolism: "The Knight of Wands rides forward with raised staff, armor, and desert heat around him. Unlike the page, he is already in motion. His fire is bold and magnetic, but it needs direction or it becomes restlessness.",
+    reading: "In a reading, the Knight of Wands favors action, travel, passion, risk, relocation, and decisive pursuit. It asks for courage, but also for enough strategy that speed does not turn into waste.",
+    reversed: "Reversed, this knight can show recklessness, anger, inconsistency, impulsive romance, or a project started at full speed and abandoned when discipline is required. Harness the fire before it burns through the plan.",
+  },
+  "queen-of-wands": {
+    symbolism: "The Queen of Wands sits with a sunflower and a black cat, combining warmth, magnetism, independence, and instinct. Her throne is decorated with lions, showing fire that is confident enough to be generous.",
+    reading: "In a reading, the Queen of Wands asks you to lead with presence, creativity, courage, and social warmth. She favors visibility, entrepreneurship, performance, sexuality, and any situation improved by self-trust.",
+    reversed: "Reversed, she can show jealousy, insecurity, burnout from being constantly available, or shrinking your light to manage other people's comfort. Confidence needs roots, not applause alone.",
+  },
+  "king-of-wands": {
+    symbolism: "The King of Wands sits with a living staff, salamander imagery, and a direct gaze. His fire has matured into vision, command, and the ability to organize energy around a larger purpose.",
+    reading: "In a reading, the King of Wands points to leadership, enterprise, creative authority, bold decisions, and the responsibility to turn inspiration into movement. He asks not only what you want, but who will be guided by your conviction.",
+    reversed: "Reversed, this king can show arrogance, impatience, broken promises, domineering leadership, or vision without listening. The strongest fire warms others; it does not need to scorch them into agreement.",
+  },
 };
 
 export function getCardDeepDiveEn(slug: string): CardDeepDiveEn | undefined {
